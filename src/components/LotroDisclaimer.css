@@ -1,0 +1,9 @@
+.lotro-disclaimer {
+  margin-top: 2rem;
+  padding: 1rem 1rem;
+  border-top: 1px solid var(--color-border, #ddd);
+  font-size: 0.8rem;
+  color: var(--color-text-muted, #666);
+  text-align: left;
+  line-height: 1.5;
+}

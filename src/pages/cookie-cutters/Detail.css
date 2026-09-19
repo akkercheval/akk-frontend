@@ -1,0 +1,130 @@
+/* ===== Cookie Cutter Detail ===== */
+.cc-detail {
+  max-width: 800px;
+}
+
+.cc-detail-content {
+  margin-top: 1rem;
+}
+
+.cc-detail-image-wrapper {
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--color-bark-light);
+}
+
+.cc-detail-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  display: block;
+}
+
+.cc-detail-info h2 {
+  font-family: var(--font-heading);
+  color: var(--color-bark);
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.cc-detail-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 0.85rem;
+}
+
+.cc-detail-type {
+  background: rgba(74, 124, 63, 0.1);
+  color: var(--color-leaf);
+  padding: 0.2rem 0.7rem;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.cc-detail-size {
+  color: var(--color-bark-light);
+}
+
+.cc-detail-date {
+  color: var(--color-text-light);
+}
+
+.cc-detail-comments {
+  color: var(--color-text-light);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+}
+
+/* Admin actions */
+.cc-detail-actions {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(139, 94, 60, 0.2);
+}
+
+.cc-btn {
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  border: none;
+}
+
+.cc-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+}
+
+.cc-btn-edit {
+  background: linear-gradient(135deg, var(--color-bark) 0%, var(--color-bark-light) 100%);
+  color: var(--color-cream);
+}
+
+.cc-btn-edit:hover {
+  box-shadow: 0 3px 10px rgba(92, 61, 30, 0.3);
+  color: var(--color-cream);
+}
+
+.cc-btn-delete {
+  background: #c44;
+  color: white;
+}
+
+.cc-btn-delete:hover:not(:disabled) {
+  box-shadow: 0 3px 10px rgba(200, 60, 60, 0.3);
+}
+
+.cc-btn-delete:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.cc-status {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--color-text-light);
+}
+
+.cc-error {
+  color: #b33;
+}
+
+@media (max-width: 600px) {
+  .cc-detail-actions {
+    flex-direction: column;
+  }
+
+  .cc-btn {
+    text-align: center;
+  }
+}

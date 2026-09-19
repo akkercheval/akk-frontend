@@ -1,0 +1,58 @@
+/* ===== Section sub-nav row (desktop) ===== */
+/*
+ * A secondary nav bar shown under the header when the visitor is inside one of
+ * the multi-subsection areas. Lets them move between sibling subpages without
+ * returning to the section landing page. Hidden on small screens, where these
+ * links are folded into the hamburger menu instead.
+ */
+.section-nav {
+  background: rgba(253, 248, 240, 0.82);
+  backdrop-filter: blur(4px);
+  border-bottom: 2px solid var(--color-bark-light);
+  padding: 0.5rem 2rem;
+}
+
+.section-nav_inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-nav_link {
+  display: inline-block;
+  padding: 0.35rem 0.9rem;
+  border-radius: 16px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color-bark);
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid var(--color-bark-light);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease, color 0.15s ease;
+  white-space: nowrap;
+}
+
+.section-nav_link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(92, 61, 30, 0.2);
+  color: var(--color-bark);
+}
+
+.section-nav_link--active {
+  color: var(--color-cream);
+  background: linear-gradient(135deg, var(--color-leaf) 0%, var(--color-leaf-light) 100%);
+  border-color: transparent;
+}
+
+.section-nav_link--active:hover {
+  color: var(--color-cream);
+}
+
+/* Hidden on small screens — the hamburger menu carries these links there. */
+@media (max-width: 768px) {
+  .section-nav {
+    display: none;
+  }
+}

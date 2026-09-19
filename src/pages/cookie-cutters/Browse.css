@@ -1,0 +1,122 @@
+/* ===== Cookie Cutter Browse ===== */
+.cc-browse {
+  max-width: 900px;
+}
+
+.cc-browse-header {
+  margin-bottom: 1.5rem;
+}
+
+.cc-back-link {
+  font-size: 0.85rem;
+  color: var(--color-leaf);
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+
+.cc-back-link:hover {
+  color: var(--color-leaf-light);
+}
+
+.cc-browse-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.25rem;
+}
+
+.cc-count {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+}
+
+.cc-btn-add {
+  padding: 0.45rem 1rem;
+  background: linear-gradient(135deg, var(--color-leaf) 0%, var(--color-leaf-light) 100%);
+  color: white;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.cc-btn-add:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(74, 124, 63, 0.3);
+  color: white;
+}
+
+.cc-status {
+  text-align: center;
+  padding: 2rem 1rem;
+  color: var(--color-text-light);
+}
+
+.cc-error {
+  color: #b33;
+}
+
+/* Grid of cutters */
+.cc-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.cc-item {
+  display: block;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--color-bark-light);
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.cc-item:hover {
+  box-shadow: 0 2px 10px rgba(92, 61, 30, 0.15);
+  transform: translateY(-1px);
+}
+
+.cc-item-name {
+  font-family: var(--font-heading);
+  color: var(--color-bark);
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.cc-item-details {
+  display: flex;
+  gap: 0.75rem;
+  font-size: 0.8rem;
+  color: var(--color-text-light);
+  margin-bottom: 0.3rem;
+}
+
+.cc-item-type {
+  background: rgba(74, 124, 63, 0.1);
+  color: var(--color-leaf);
+  padding: 0.1rem 0.5rem;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.cc-item-size {
+  color: var(--color-bark-light);
+}
+
+.cc-item-comments {
+  font-size: 0.82rem;
+  color: var(--color-text-light);
+  margin-top: 0.3rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 600px) {
+  .cc-grid {
+    grid-template-columns: 1fr;
+  }
+}

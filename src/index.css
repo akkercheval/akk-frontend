@@ -1,0 +1,78 @@
+/* ===== Global Reset & Base Styles ===== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-sky-light: #b3d9f2;
+  --color-sky-dark: #7ab8d9;
+  --color-bark: #5c3d1e;
+  --color-bark-light: #8b5e3c;
+  --color-leaf: #4a7c3f;
+  --color-leaf-light: #6dad5b;
+  --color-cream: #fdf8f0;
+  --color-acorn: #c68e17;
+  --color-text: #2d2418;
+  --color-text-light: #5c4a36;
+  --font-heading: 'Georgia', serif;
+  --font-body: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font-body);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+body {
+  /*
+   * The page background is now rendered by the <ForestBackground /> layer,
+   * which picks the correct location/season/size image per route (see
+   * src/forest/). A neutral base color shows only before that layer paints.
+   */
+  background-color: var(--color-sky-light);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: var(--color-leaf);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--color-leaf-light);
+}
+
+/* ===== Acorn bullet points ===== */
+ul.acorn-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul.acorn-list li {
+  position: relative;
+  padding-left: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+ul.acorn-list li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0.25rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  background: url('/icons/acorn.png') center center / contain no-repeat;
+}

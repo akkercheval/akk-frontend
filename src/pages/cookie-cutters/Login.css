@@ -1,0 +1,65 @@
+/* ===== Cookie Cutter Login ===== */
+.cc-login {
+  max-width: 400px;
+}
+
+.cc-login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.cc-login-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--color-bark);
+}
+
+.cc-login-input {
+  padding: 0.7rem 1rem;
+  border: 2px solid var(--color-bark-light);
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-family: var(--font-body);
+  background: rgba(255, 255, 255, 0.8);
+  color: var(--color-text);
+  transition: border-color 0.2s ease;
+}
+
+.cc-login-input:focus {
+  outline: none;
+  border-color: var(--color-leaf);
+}
+
+.cc-login-btn {
+  padding: 0.75rem 1.5rem;
+  background: linear-gradient(135deg, var(--color-bark) 0%, var(--color-bark-light) 100%);
+  color: var(--color-cream);
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  margin-top: 0.5rem;
+}
+
+.cc-login-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(92, 61, 30, 0.3);
+}
+
+.cc-login-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.cc-login-error {
+  color: #b33;
+  font-size: 0.85rem;
+  margin: 0;
+}

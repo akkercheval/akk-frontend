@@ -1,0 +1,68 @@
+.welcome-section {
+  max-width: 700px;
+  background: rgba(253, 248, 240, 0.92);
+  backdrop-filter: blur(4px);
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-top: 2rem;
+}
+
+.welcome-greeting {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+}
+
+.welcome-mascot {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
+.welcome-section h2 {
+  font-family: var(--font-heading);
+  color: var(--color-bark);
+  font-size: 1.6rem;
+  margin-bottom: 0;
+}
+
+.welcome-section p {
+  margin-bottom: 0.8rem;
+  color: var(--color-text-light);
+}
+
+.welcome-invite {
+  font-size: 1.05rem;
+  color: var(--color-bark);
+  padding: 0.8rem 1.2rem;
+  border-left: 3px solid var(--color-leaf);
+  background: rgba(74, 124, 63, 0.05);
+  border-radius: 0 8px 8px 0;
+  margin: 1rem 0;
+}
+
+.welcome-signature {
+  font-size: 0.9rem;
+  color: var(--color-bark-light);
+  font-weight: 500;
+}
+
+@media (min-width: 769px) {
+  .welcome-section {
+    max-width: 780px;
+  }
+}
+
+@media (max-width: 600px) {
+  .welcome-section {
+    padding: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .welcome-mascot {
+    width: 48px;
+    height: 48px;
+  }
+}

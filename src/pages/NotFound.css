@@ -1,0 +1,28 @@
+.not-found {
+  max-width: 500px;
+  background: rgba(253, 248, 240, 0.92);
+  backdrop-filter: blur(4px);
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.not-found h2 {
+  font-family: var(--font-heading);
+  color: var(--color-bark);
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.not-found p {
+  color: var(--color-text-light);
+}
+
+.not-found-squirrel {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 1.5rem;
+  display: block;
+}

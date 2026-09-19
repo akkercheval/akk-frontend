@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Environment / secrets (contains VITE_API_URL, image base, etc.)
+.env
+.env.*
+!.env.example
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# ---------------------------------------------------------------------------
+# Character design / SVG rendering assets (production/reference material only).
+# The deployed site does NOT import from these folders; src/ references them
+# by slug/route name only. Runtime assets live in public/ and src/assets/.
+# ---------------------------------------------------------------------------
+gypsa/
+melda/
+forest/
+style-guide/
+
+# Loose top-level design docs & reference images
+# (leading slash = repo root only, so public/**/*.png runtime assets are kept)
+/Friendly Forest Locations.md
+/friendly-forest-principles.md
+/friendly-forest-production-guide.md
+/*.png
