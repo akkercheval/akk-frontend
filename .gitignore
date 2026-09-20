@@ -28,18 +28,59 @@ dist-ssr
 *.sln
 *.sw?
 # ---------------------------------------------------------------------------
-# Character design / SVG rendering assets (production/reference material only).
-# The deployed site does NOT import from these folders; src/ references them
-# by slug/route name only. Runtime assets live in public/ and src/assets/.
+# Character design / SVG rendering assets.
+# NOTE: src/ imports SOME of these at build time via Vite (?raw / ?url), so
+# those specific files MUST be committed or the production build fails.
+# We ignore the bulky reference material but un-ignore what the build needs.
 # ---------------------------------------------------------------------------
-gypsa/
+
+# melda / style-guide are not imported by src -> keep fully ignored.
 melda/
-forest/
 style-guide/
 
-# Loose top-level design docs & reference images
-# (leading slash = repo root only, so public/**/*.png runtime assets are kept)
-/Friendly Forest Locations.md
-/friendly-forest-principles.md
-/friendly-forest-production-guide.md
+# gypsa: ignore everything, then re-include only the files src/ imports.
+gypsa/*
+!gypsa/Milestones.md
+!gypsa/Approved Reference/
+gypsa/Approved Reference/*
+# Re-include only the referenced files under Approved Reference/
+!gypsa/Approved Reference/canonical-body-dummy-v2.0.md
+!gypsa/Approved Reference/canonical-body-dummy-v2.0-back.svg
+!gypsa/Approved Reference/canonical-body-dummy-v2.0-profile.svg
+!gypsa/Approved Reference/Ear Construction Front view.png
+!gypsa/Approved Reference/Ear Specification.md
+!gypsa/Approved Reference/Gypsa Canonical Ear.png
+!gypsa/Approved Reference/Gypsa Canonical Geometry Table v0.1.md
+!gypsa/Approved Reference/Gypsa Canonical Head Neutral Pose.png
+!gypsa/Approved Reference/Gypsa Canonical Head Reference Views 20260817.png
+!gypsa/Approved Reference/Gypsa Canonical Muzzle.png
+!gypsa/Approved Reference/Gypsa Canonical Tail Design Specification.md
+!gypsa/Approved Reference/Gypsa Canonical Tail Fur Envelope.png
+!gypsa/Approved Reference/Gypsa Canonical Tail Render Prompt.md
+!gypsa/Approved Reference/Gypsa Directionally Sanitized Tail Render Prompt.md
+!gypsa/Approved Reference/Gypsa Head Expressions.png
+!gypsa/Approved Reference/Gypsa Joint System.md
+!gypsa/Approved Reference/Gypsa Profile View.png
+!gypsa/Approved Reference/Gypsa Tail Inquisitive Curve.png
+!gypsa/Approved Reference/Gypsa Tail Neutral Curve.png
+!gypsa/Approved Reference/Gypsa Tail Puzzled Curve.png
+!gypsa/Approved Reference/Gypsa Tail Thinking Curve.png
+!gypsa/Approved Reference/Gypsa Tail Validation Three Views.png
+!gypsa/Approved Reference/gypsa_all-fours_reference.svg
+!gypsa/Approved Reference/gypsa_upright_reference.svg
+!gypsa/Approved Reference/gypsa-body-construction-v1.0.md
+!gypsa/Approved Reference/gypsa-canonical-head-construction-guide.md
+!gypsa/Approved Reference/gypsa-character-bible.md
+!gypsa/Approved Reference/gypsa-production-guide.md
+!gypsa/Approved Reference/gypsa-project-status.md
+!gypsa/Approved Reference/Tail Specification Neutral Pose.md
+
+# forest/ is small and its markdown is imported by src -> keep it in the repo.
+# (no ignore rule for forest/)
+
+# Loose top-level design docs & reference images.
+# The two below are imported by src/ so they MUST stay tracked; ignore the rest.
 /*.png
+/*.md
+!/Friendly Forest Locations.md
+!/friendly-forest-principles.md

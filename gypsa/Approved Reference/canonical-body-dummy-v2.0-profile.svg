@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+  <title>Gypsa Canonical Body Dummy v2.0 — Profile</title>
+  <desc>Neutral construction framework rebuilt on the canonical rig (back 1.70H, arms 0.62/0.72H, hind legs 0.59/0.82/0.59H, hand W-Kb-Tf 0.22/0.24H, head 1.0H, single near-side ear 0.30H, neutral S-curve tail attaching at the base of the spine). Faces left. All canonical joints marked. Walking-stick reference points included (grip bend at elbow 2.56H, Y-split from shoulder 3.15H, max top at eye line 3.95H). Structurally functional only.</desc>
+
+  <g id="construction-lines" stroke="#C8A2C8" stroke-width="1" stroke-dasharray="8,6" fill="none" opacity="0.6">
+    <line x1="157.0" y1="143.5" x2="769.0" y2="143.5"/>
+    <text x="775.0" y="147.5" font-family="sans-serif" font-size="14" fill="#C8A2C8" stroke="none" opacity="0.85">Top of Head</text>
+    <line x1="157.0" y1="229.1" x2="769.0" y2="229.1"/>
+    <text x="775.0" y="233.1" font-family="sans-serif" font-size="14" fill="#C8A2C8" stroke="none" opacity="0.85">Eye Line</text>
+    <line x1="157.0" y1="364.5" x2="769.0" y2="364.5"/>
+    <text x="775.0" y="368.5" font-family="sans-serif" font-size="14" fill="#C8A2C8" stroke="none" opacity="0.85">Shoulder Line</text>
+    <line x1="157.0" y1="464.7" x2="769.0" y2="464.7"/>
+    <text x="775.0" y="468.7" font-family="sans-serif" font-size="14" fill="#C8A2C8" stroke="none" opacity="0.85">Elbow Line</text>
+    <line x1="157.0" y1="653.5" x2="769.0" y2="653.5"/>
+    <text x="775.0" y="657.5" font-family="sans-serif" font-size="14" fill="#C8A2C8" stroke="none" opacity="0.85">Hip Line</text>
+    <line x1="157.0" y1="755.5" x2="769.0" y2="755.5"/>
+    <text x="775.0" y="759.5" font-family="sans-serif" font-size="14" fill="#C8A2C8" stroke="none" opacity="0.85">Knee Line</text>
+    <line x1="157.0" y1="900.0" x2="769.0" y2="900.0"/>
+    <text x="775.0" y="904.0" font-family="sans-serif" font-size="14" fill="#C8A2C8" stroke="none" opacity="0.85">Ground Line</text>
+    <line x1="432.4" y1="109.5" x2="503.8" y2="925.5"/>
+    <text x="455.0" y="500.0" font-family="sans-serif" font-size="14" fill="#C8A2C8" stroke="none" opacity="0.85">Center</text>
+  </g>
+
+  <g id="body-dummy" fill="none" stroke="#1E1E1E" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <g id="head">
+      <ellipse cx="469.6" cy="229.1" rx="83.3" ry="85.0"/>
+      <!-- single near-side (left) ear: root El(4.296H) -> tip Elt(4.596H), length 0.30H;
+           rounded squirrel ear attached low toward the back of the crown. -->
+      <g id="ear">
+        <path d="M 452.0,175.7 Q 449.0,128.0 470.0,118.7 Q 491.0,132.0 494.0,171.7" stroke-width="3"/>
+        <path d="M 460.0,166.0 Q 468.0,140.0 480.0,132.0" stroke-width="2" opacity="0.7"/>
+      </g>
+    </g>
+    <g id="neck">
+      <path d="M 471.0,313.5 L 471.0,364.5 M 489.0,313.5 L 489.0,364.5"/>
+    </g>
+    <g id="torso">
+      <path d="M 429.0,364.5 C 401.8,390.0 401.8,512.4 401.8,537.9 C 422.2,611.0 422.2,645.0 439.5,662.0 Q 480.0,684.1 520.5,662.0 C 537.8,645.0 537.8,611.0 558.2,537.9 C 558.2,512.4 558.2,390.0 531.0,364.5 Q 480.0,344.1 429.0,364.5 Z"/>
+    </g>
+    <g id="shoulders" opacity="0.6">
+      <path d="M 429.0,364.5 Q 467.2,358.5 466.4,364.5"/>
+    </g>
+    <g id="arm">
+      <!-- S -> E -> W centerline -->
+      <path d="M 466.4,364.5 L 433.8,464.7 L 382.1,575.7"/>
+      <!-- hand: palm circle (diameter = W->Kb = 0.22H) + three fingers (longest = Kb->Tf 0.24H) + opposed thumb -->
+      <g id="hand">
+        <circle cx="374.2" cy="592.7" r="18.7"/>
+        <path d="M 366.3,609.6 L 347.6,649.7" stroke-width="2.5"/>
+        <path d="M 379.7,610.5 L 361.6,648.2" stroke-width="2.5"/>
+        <path d="M 357.0,600.0 L 341.6,636.1" stroke-width="2.5"/>
+        <path d="M 371.9,571.0 L 341.5,576.3" stroke-width="2.5"/>
+      </g>
+    </g>
+    <g id="leg">
+      <path d="M 466.4,653.5 L 421.8,743.4 L 544.2,810.1"/>
+      <path d="M 544.2,810.1 L 499.6,900.0 L 453.7,900.0 Q 499.0,917.0 544.2,810.1 Z"/>
+    </g>
+    <g id="tail">
+      <path d="M 520.5,636.5 C 546.0,654.4 538.0,665.4 568.6,665.4 C 640.0,648.4 616.5,504.1 592.7,432.7 C 568.9,351.1 633.6,265.7 691.4,265.7 C 759.4,265.7 769.5,291.6 735.5,376.6" stroke-width="4"/>
+    </g>
+    <g id="backpack" opacity="0.6">
+      <path d="M 531.0,373.0 C 636.4,373.0 636.4,407.0 636.4,487.8 C 636.4,568.5 636.4,602.5 531.0,602.5 L 531.0,373.0 Z" stroke-dasharray="6,4"/>
+      <path d="M 531.0,373.0 Q 480.0,347.5 449.4,373.0" stroke-width="3" stroke-dasharray="6,4"/>
+    </g>
+    <g id="walking-stick" opacity="0.65">
+      <!-- lower shaft: ground up to elbow bend (grip) -->
+      <path d="M 214.0,900.0 L 216.5,464.6" stroke-dasharray="6,4"/>
+      <!-- upper shaft: elbow bend up to Y-split base (suggested ~3.35H) -->
+      <path d="M 216.5,464.6 L 216.5,330.5" stroke-dasharray="6,4"/>
+      <!-- Y fork: two arms up toward the eye line (max top 3.95H) -->
+      <path d="M 216.5,330.5 L 202.0,229.2" stroke-dasharray="6,4"/>
+      <path d="M 216.5,330.5 L 231.0,229.2" stroke-dasharray="6,4"/>
+    </g>
+  </g>
+
+  <!-- Canonical joint markers -->
+  <g id="joints" fill="#1E1E1E" stroke="none">
+    <g fill="#D64545">
+      <circle cx="469.6" cy="229.1" r="4"/>
+      <circle cx="466.4" cy="364.5" r="4"/>
+      <circle cx="433.8" cy="464.7" r="4"/>
+      <circle cx="382.1" cy="575.7" r="4"/>
+      <circle cx="366.3" cy="609.6" r="4"/>
+      <circle cx="347.6" cy="649.7" r="4"/>
+    </g>
+    <g fill="#3A7CA5">
+      <circle cx="471.0" cy="313.5" r="4"/>
+      <circle cx="466.4" cy="364.5" r="3"/>
+      <circle cx="466.4" cy="653.5" r="4"/>
+    </g>
+    <g fill="#3F9142">
+      <circle cx="466.4" cy="653.5" r="3"/>
+      <circle cx="421.8" cy="743.4" r="4"/>
+      <circle cx="544.2" cy="810.1" r="4"/>
+      <circle cx="499.6" cy="900.0" r="4"/>
+      <circle cx="453.7" cy="900.0" r="4"/>
+    </g>
+    <g fill="#B4711E">
+      <circle cx="520.5" cy="636.5" r="4"/>
+      <circle cx="558.6" cy="665.4" r="3.5"/>
+      <circle cx="691.4" cy="265.7" r="3.5"/>
+      <circle cx="592.7" cy="432.7" r="3.5"/>
+      <circle cx="735.5" cy="376.6" r="4"/>
+    </g>
+    <g fill="#7A4FB5">
+      <circle cx="473.0" cy="171.0" r="4"/>
+      <circle cx="470.0" cy="118.7" r="4"/>
+    </g>
+  </g>
+
+  <g id="joint-labels" font-family="sans-serif" font-size="12" fill="#1E1E1E" stroke="none">
+    <text x="500" y="215">Hc</text>
+    <text x="505" y="122" fill="#7A4FB5">Elt (tip)</text>
+    <text x="505" y="178" fill="#7A4FB5">El (root)</text>
+    <text x="420" y="326" fill="#3A7CA5">Nc</text>
+    <text x="505" y="391">Sc/S</text>
+    <text x="443" y="461">E</text>
+    <text x="389" y="571">W</text>
+    <text x="318" y="606">Kb</text>
+    <text x="305" y="655">Tf</text>
+    <text x="472" y="650" fill="#3F9142">Pc/H</text>
+    <text x="401" y="742">K</text>
+    <text x="550" y="808">Hk</text>
+    <text x="503" y="897">T</text>
+    <text x="424" y="912">Th</text>
+    <text x="500" y="628" fill="#B4711E">Tr</text>
+    <text x="575" y="685">Tt1</text>
+    <text x="598" y="429">Tt2</text>
+    <text x="697" y="263">Tt3</text>
+    <text x="741" y="380">Tst</text>
+  </g>
+
+  <!-- Walking-stick reference callouts -->
+  <g id="stick-labels" font-family="sans-serif" font-size="12" fill="#8A6D3B" stroke="none">
+    <circle cx="216.5" cy="464.6" r="3.5" fill="#8A6D3B"/>
+    <text x="120" y="461">grip bend (elbow 2.56H)</text>
+    <circle cx="216.5" cy="364.5" r="3.5" fill="#8A6D3B"/>
+    <text x="70" y="356">Y-split min (shoulder 3.15H)</text>
+    <circle cx="216.5" cy="330.5" r="3" fill="#8A6D3B"/>
+    <text x="86" y="322">Y-split (suggested 3.35H)</text>
+    <text x="238" y="212">max top (eye 3.95H)</text>
+  </g>
+
+  <g id="measurements" fill="#8B8B8B" font-family="sans-serif" font-size="12" opacity="0.6">
+    <text x="80.0" y="228.5">1 unit (head)</text>
+    <line x1="150.0" y1="313.5" x2="150.0" y2="143.5" stroke="#8B8B8B" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="145.0" y1="313.5" x2="155.0" y2="313.5" stroke="#8B8B8B" stroke-width="1"/>
+    <line x1="145.0" y1="143.5" x2="155.0" y2="143.5" stroke="#8B8B8B" stroke-width="1"/>
+    <text x="50.0" y="509.0">1.70 units (back)</text>
+    <line x1="120.0" y1="653.5" x2="120.0" y2="364.5" stroke="#8B8B8B" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="115.0" y1="653.5" x2="125.0" y2="653.5" stroke="#8B8B8B" stroke-width="1"/>
+    <line x1="115.0" y1="364.5" x2="125.0" y2="364.5" stroke="#8B8B8B" stroke-width="1"/>
+    <text x="20.0" y="160.5">4.45 units total</text>
+    <line x1="90.0" y1="900.0" x2="90.0" y2="143.5" stroke="#8B8B8B" stroke-width="1" stroke-dasharray="3,3"/>
+    <line x1="85.0" y1="900.0" x2="95.0" y2="900.0" stroke="#8B8B8B" stroke-width="1"/>
+    <line x1="85.0" y1="143.5" x2="95.0" y2="143.5" stroke="#8B8B8B" stroke-width="1"/>
+  </g>
+</svg>

@@ -21,11 +21,11 @@ dist-ssr
 .DS_Store
 *.log
 
-# Design & reference material not used by the running site
-gypsa/
+# Design/reference material NOT imported by the build -> safe to exclude.
 melda/
-forest/
-lotro/
 style-guide/
-*.png
-*.md
+
+# NOTE: gypsa/, forest/, lotro/, and some top-level *.md files ARE imported by
+# src/ at build time (Vite ?raw / ?url), so they must remain in the build
+# context. .gitignore already keeps only the needed subset in the repo, so the
+# CI checkout is already lean. Do not exclude them here or the build fails.
