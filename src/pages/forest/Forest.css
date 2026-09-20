@@ -1,0 +1,47 @@
+.forest-subtitle {
+  font-style: italic;
+  color: var(--color-text-light);
+  margin-top: -0.25rem;
+}
+
+.forest-nav-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+
+.forest-nav-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 1rem 1.2rem;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid var(--color-bark-light);
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.forest-nav-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(92, 61, 30, 0.2);
+  border-color: var(--color-leaf);
+}
+
+.forest-nav-card strong {
+  color: var(--color-bark);
+  font-size: 1.05rem;
+}
+
+.forest-nav-card span {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+}
+
+@media (max-width: 600px) {
+  .forest-nav-links {
+    grid-template-columns: 1fr;
+  }
+}

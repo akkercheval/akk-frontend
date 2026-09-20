@@ -1,0 +1,373 @@
+/* ===== Making of Gypsa Page ===== */
+.gypsa-notebook {
+    --paper: #fbf7e9;
+    --rule: rgba(106, 145, 169, 0.22);
+    --margin-rule: rgba(166, 91, 79, 0.45);
+
+    --line-height: 1.8rem;
+    --rule-offset: 1.0rem;   
+    --spiral-height: 120px;
+
+    position: relative;
+    width: min(100%, 900px);
+
+    /*
+     * Gives the coils room to project above the paper.
+     */
+    padding-top: 45px;
+
+    --line-height: 1.8rem;
+}
+
+.gypsa-page {
+    position: relative;
+
+    min-height: 500px;
+
+    padding:
+        calc(var(--line-height) * 3)
+        clamp(2rem, 6vw, 5rem)
+        calc(var(--line-height) * 3)
+        clamp(4.5rem, 9vw, 7rem);
+
+    background-color: var(--paper);
+
+    /*
+     * Notebook ruling.
+     */
+    background-image:
+
+        radial-gradient(
+            circle at 18% 22%,
+            rgba(119, 91, 54, 0.025),
+            transparent 28%
+        ),
+
+        radial-gradient(
+            circle at 82% 67%,
+            rgba(119, 91, 54, 0.018),
+            transparent 32%
+        ),
+
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0,
+            transparent calc(var(--line-height) - 1px),
+            var(--rule) calc(var(--line-height) - 1px),
+            var(--rule) var(--line-height)
+        );
+
+    background-position:
+        0 0,
+        0 0,
+        0 var(--rule-offset);        
+
+    border-radius: 5px 5px 12px 12px;
+
+    box-shadow:
+        0 4px 8px rgba(64, 45, 29, 0.12),
+        0 18px 35px rgba(64, 45, 29, 0.12);
+
+    /* Handwritten notebook feel */
+    font-family: "Kalam", "Segoe Print", "Bradley Hand", cursive;
+    font-size: 1.1rem;
+    line-height: var(--line-height);
+    font-weight: 400;
+    color: #3a3028;
+}
+
+.gypsa-page::before {
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    bottom: 0;
+
+    left: clamp(2.75rem, 6vw, 4.25rem);
+
+    width: 1px;
+
+    background: var(--margin-rule);
+
+    pointer-events: none;
+}
+
+.gypsa-notebook_spiral {
+    position: absolute;
+
+    z-index: 2;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    height: var(--spiral-height);
+
+    background-image: url("notebook-spiral.png");
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-size: auto var(--spiral-height);
+
+    pointer-events: none;
+}
+
+.gypsa-intro {
+  line-height: var(--line-height);
+}
+
+.gypsa-intro h2 {
+  color: var(--color-bark);
+  font-size: 1.9rem;
+  line-height: calc(var(--line-height) * 2);
+  margin: 0 0 var(--line-height);
+}
+
+.gypsa-intro .subtitle {
+  font-style: italic;
+  color: var(--color-text-light);
+  margin: 0 0 var(--line-height);
+  font-size: 1.05rem;
+  line-height: var(--line-height);
+}
+
+.gypsa-intro p {
+  color: #3a3028;
+  margin: 0 0 var(--line-height);
+  line-height: var(--line-height);
+}
+
+.gypsa-motto {
+  font-style: italic;
+  text-align: center;
+  color: var(--color-bark);
+  font-size: 1.1rem;
+  line-height: var(--line-height);
+  margin: var(--line-height) 0;
+  padding: calc(var(--line-height) * 0.5) 1rem;
+  border-left: 3px solid var(--color-leaf);
+  background: rgba(74, 124, 63, 0.05);
+  border-radius: 0 8px 8px 0;
+}
+
+/* Section cards */
+
+.gypsa-section {
+  line-height: var(--line-height);
+}
+
+.gypsa-section h3 {
+  color: var(--color-bark);
+  font-size: 1.4rem;
+  line-height: calc(var(--line-height) * 1.5);
+  margin: var(--line-height) 0 0;
+}
+
+.gypsa-section h4 {
+  color: var(--color-bark-light);
+  font-size: 1.1rem;
+  line-height: var(--line-height);
+  margin: var(--line-height) 0 0;
+}
+
+.gypsa-section p {
+  color: #3a3028;
+  margin: 0 0 var(--line-height);
+  line-height: var(--line-height);
+}
+
+.gypsa-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--line-height);
+}
+
+.gypsa-section ul li {
+  position: relative;
+  padding-left: 1.5rem;
+  color: #3a3028;
+  line-height: var(--line-height);
+}
+
+.gypsa-section ul li::before {
+  content: '🌰';
+  position: absolute;
+  left: 0;
+  font-size: 0.75rem;
+}
+
+/* Color palette display */
+.color-palette {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.color-swatch {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  background: white;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.color-swatch .swatch {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Milestone timeline */
+.milestone-timeline {
+  position: relative;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+  border-left: 2px solid var(--color-leaf-light);
+}
+
+.milestone-item {
+  position: relative;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+}
+
+.milestone-item::before {
+  content: '';
+  position: absolute;
+  left: -1.75rem;
+  top: 0.5rem;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--color-leaf);
+}
+
+.milestone-item .milestone-date {
+  font-size: 0.8rem;
+  color: var(--color-bark-light);
+  font-weight: 600;
+}
+
+.milestone-item .milestone-desc {
+  color: var(--color-text-light);
+  margin: 0;
+}
+
+/* Principles */
+.principle-block {
+  background: rgba(74, 124, 63, 0.06);
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin: 1rem 0;
+  border-left: 3px solid var(--color-leaf);
+}
+
+.principle-block p {
+  margin-bottom: 0.4rem;
+  font-style: italic;
+}
+
+/* Current status */
+.status-badge {
+  display: inline-block;
+  background: linear-gradient(135deg, var(--color-leaf) 0%, var(--color-leaf-light) 100%);
+  color: white;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+/* Navigation cards */
+.gypsa-nav-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0 2rem;
+}
+
+.gypsa-nav-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: 1rem 1.2rem;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid var(--color-bark-light);
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.gypsa-nav-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(92, 61, 30, 0.2);
+  border-color: var(--color-leaf);
+}
+
+.gypsa-nav-card strong {
+  color: var(--color-bark);
+  font-size: 1.05rem;
+}
+
+.gypsa-nav-card span {
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+
+  .gypsa-notebook {
+      --spiral-height: 90px;
+
+      padding-top: 40px;
+  }
+
+  .gypsa-page {
+    padding:
+        75px
+        1.5rem
+        3rem
+        3.5rem;
+  }
+
+  .gypsa-page::before {
+    left: 2.5rem;
+  }
+
+  .gypsa-intro,
+  .gypsa-section {
+    padding: 1.5rem;
+  }
+
+  .gypsa-intro h2 {
+    font-size: 1.4rem;
+  }
+
+  .color-palette {
+    flex-direction: column;
+  }
+
+  .gypsa-nav-links {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Back link on the Canonical Design Documentation sub-page */
+.gypsa-back-link {
+  color: var(--color-bark);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.gypsa-back-link:hover {
+  color: var(--color-leaf);
+  text-decoration: underline;
+}

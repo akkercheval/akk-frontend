@@ -1,0 +1,12 @@
+/* Fixed, full-viewport background layer behind all content. */
+.forest-background {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* Cross-fade when the resolved image changes between routes/seasons/sizes. */
+  transition: background-image 0.3s ease-in-out;
+}
