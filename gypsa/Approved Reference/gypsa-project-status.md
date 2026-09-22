@@ -10,6 +10,7 @@
 - Explorer  
 - Walking stick  
 - Backpack  
+- Green neck bandana  
 - Loves discovering things  
 - Invites others to explore  
 
@@ -25,10 +26,10 @@
 - Validate before approving.  
 
 ## Current Phase  
-Discover canon walking stick and backpack.   
+Equipment canonized (backpack, walking stick, bandana). Next: full character assembly.   
 
 ### Current Goal  
-Create canon png renders of Gypsa's walking stick and backpack.   
+Assemble Gypsa with her canonical equipment (backpack + bandana + walking stick) on the frozen canonical body, guarding tail attachment at the tail root (Tr).   
 
 ### Current Hypothesis:  
 *No current working hypothesis*  
@@ -51,6 +52,9 @@ Create canon png renders of Gypsa's walking stick and backpack.
 - Tail Validation Three Views and Profile View for Neutral Tail  
 - Canonical All-Fours Profile Structural Reference (svg)  
 - Canonical Upright Profile Structural Reference (svg)  
+- Canonical Backpack (acorn flap; `Gypsa Backpack.md` + `Gypsa Canonical Backpack Reference.png`)  
+- Canonical Walking Stick (structure; `Gypsa Walking Stick.md`)  
+- Canonical Bandana (`Gypsa Bandana.md`)  
 
 ### Current Working Assumptions  
 - All elements of Gypsa's head are considered canon.  
@@ -82,12 +86,15 @@ Decided to pause further work on full svg models.  Structural References are con
 ✓ Canonical Back Length (Candidate B, Sc→Pc 1.70H)  
 ✓ Hand Landmark System (W→Kb→Tf; palm 0.22H, fingers 0.24H, reach 0.46H)  
 ✓ Muzzle Measurements (from the canonical drawing; provisional)  
+✓ Canonical Backpack (acorn flap, side-mounted stick, top loop + acorn charm, back-mounted straps)  
+✓ Canonical Walking Stick (structure)  
+✓ Canonical Bandana (green, front square knot)  
 
 ### Next Deliverable  
-- Canon png images of Gypsa's staff and backpack.   
+- Full-body render of Gypsa wearing her canonical equipment (frozen body, tail attached at Tr).   
 
 ### Current Question:  
-*What do Gypsa's staff and backpack look like?*  
+*How do Gypsa's canonical equipment pieces sit together on her body without disturbing the frozen geometry (especially tail attachment)?*  
 
 ## Upcoming  
 ### Next  

@@ -115,20 +115,29 @@ It communicates emotion, movement, and interaction.
 The tail should interact naturally with the environment whenever possible.
 
 ## 8. Equipment
-### Backpack
+### Backpack *(canonical — see `Gypsa Backpack.md`)*
 - Woodland backpack.  
-- Acorn-inspired flap.  
+- Acorn-shaped leather flap (quilted cap texture, no stem).  
 - Drawstring closure.  
-- Two shoulder straps.  
-- Oak leaf patch.  
-- Visible repairs.  
+- Two leather shoulder straps, sewn to the back.  
+- Leather top loop for hanging.  
+- Enlarged oak leaf patch on the front.  
+- Visible, careful repairs.  
 - Signs of careful use.  
-- Cookie cutter charm. 
+- Acorn-shaped cookie cutter tied to the top loop as a charm.  
+- Side-mounted found-oak walking stick on two leather straps.  
 - Acorn cap-inspired crocheted hat for cold winter months. 
 
 The backpack changes slowly over the years through useful additions and keepsakes.  
 
-### Walking Stick
+### Bandana *(canonical — see `Gypsa Bandana.md`)*
+- Square cloth bandana.  
+- Folded corner to corner into a right triangle.  
+- Tied around the neck with a small square knot in the front.  
+- Solid oak-leaf green (`#4F7A3A`), matching the backpack's oak leaf patch.  
+- A simple, everyday, well-loved accent.  
+
+### Walking Stick *(canonical structure — see `Gypsa Walking Stick.md`)*
 - Found, not bought.  
 - Naturally fallen oak branch.  
 - Cloth grip.  

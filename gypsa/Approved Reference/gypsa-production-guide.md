@@ -84,8 +84,14 @@
 | --- | --- |  
 | Backpack Flap | #6B4A2E |  
 | Backpack Body | #A8743A |  
-| Oak Leaf Embroidery | #4F7A3A |  
+| Oak Leaf Embroidery / Patch | #4F7A3A |  
 | Acorn Cookie Cutter | #B8B8B8 |  
+
+### Bandana
+
+| Part | Color |  
+| --- | --- |  
+| Bandana Cloth | #4F7A3A (same green as the oak leaf patch) |  
 
 ## Naming Convention  
 
@@ -96,6 +102,7 @@ gypsa
  ├── ears
  ├── tail
  ├── backpack
+ ├── bandana
  ├── walking-stick
  ├── eyes
  ├── mouth
@@ -112,11 +119,12 @@ gypsa
 - fur-light
 - belly
 - outline
-- oak-green
+- oak-green (oak leaf patch + bandana)
 - backpack-dark
 - backpack-light
 - cloth-wrap
 - walking-stick
+- bandana (= oak-green)
 
 ## Line Weight
 
