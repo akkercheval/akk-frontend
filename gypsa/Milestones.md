@@ -105,3 +105,19 @@ Built Gypsa's upright Support Volumes (Production Workflow Stage 2) and complete
 - **Bandana — now canon** (`Approved Reference/Gypsa Bandana.md`). A square cloth folded corner-to-corner into a right triangle, tied at the neck with a small **square knot in front**, band wrapping the back of the neck. Solid **oak-leaf green `#4F7A3A`**, matching the backpack's oak-leaf patch. Front knot referenced from `Gypsa Reference Images.png` (panels 1–2); back wrap from the first backpack render (`Exploration/Backpack/ChatGPT Image Sep 22, 2026, 04_11_09 PM.png`).
 
 Updated the Character Bible §8 (Equipment: added the bandana, refreshed the backpack list, marked items canonical), the Production Guide (added the bandana color + token + naming node), and the Canon Summary (new Equipment section §5b with backpack/walking-stick/bandana; moved all three out of "Not Yet Designed").
+
+## Milestone 24 2026/09/22
+**First full-body assembly of Gypsa with all canonical equipment — provisional upright pose accepted.**
+
+Assembled the canonical backpack, bandana, and walking stick onto the frozen body in a front 3/4 standing pose holding the stick. Took three passes to dial in the character: Pass 1 was chibi/stubby (head too big, back/legs too short); Pass 2 over-corrected to too tall/lanky and read masculine, with rounded "blob" ears and too much brown; **Pass 3 landed it** — proportions on-canon (~4.7 heads crown-to-toe, shoulder ~3.4H), soft/feminine pear-shaped build recovered, gray-dominant coat, tail correctly attached at the tail root (Tr) throughout. Accepted Pass 3 as the **provisional canonical full-body upright pose** (`Approved Reference/Gypsa Provisional Full Body Upright Pose.png`, redundant side oak-leaf removed so the 3/4 backpack reads correctly).
+
+The one remaining drift is the **ears turning too far forward** over the face (a recurring historical issue) — added as a Watch Item and called out explicitly in the full-body assembly prompt against `Gypsa Canonical Ear.png`.
+
+Also refined the **Walking Stick** spec while validating: **Y-split moved to 3.45H** (base of chin / top of neck, the Nc landmark — supersedes the earlier "≥3.15H shoulder-line" and matches where the accepted composite actually splits), and the **fork asymmetry locked as a ratio** — the shorter arm ≈ **60%** of the longer arm's length (matches the measured composite; survives rescaling). Updated the Walking Stick spec and the Canon Summary accordingly.
+
+## Milestone 25 2026/09/22
+**Second full-body pose validated (rear 3/4, stick stowed) and standalone walking-stick reference accepted.**
+
+Rendered Pose 2 — Gypsa walking in a rear 3/4 view, glancing back, with the walking stick **stowed** on the side of the backpack (Squirrel-Mode carry). The first render was good but the stowed stick was too short; a combination of targeted edit prompts plus hand compositing produced the accepted result `Approved Reference/Gypsa Provisional Full Body Back Pose.png` — the best full-body render so far: proportions and soft feminine build consistent with Pose 1, **soft-taper side-mounted ears with no forward turn** (resolving the recurring ear drift in practice), **gray-dominant fur** (no over-browning), full-length stowed walking stick, tail attached at the root, and all equipment on-canon.
+
+Also accepted a **standalone canonical walking-stick render**, `Approved Reference/Gypsa Canonical Walking Stick Reference.png`, as the accepted master image for the walking stick (lineage: the Round 2 composite). Updated the Walking Stick spec, Canon Summary (§5c full-body assembly now lists both the upright and back poses; walking-stick entry cites the new standalone reference), and project status (next phase = all-fours poses).

@@ -26,10 +26,10 @@
 - Validate before approving.  
 
 ## Current Phase  
-Equipment canonized (backpack, walking stick, bandana). Next: full character assembly.   
+Full character assembly validated in two upright poses (front, stick held; rear, stick stowed). Next: all-fours ("Squirrel Mode") poses.   
 
 ### Current Goal  
-Assemble Gypsa with her canonical equipment (backpack + bandana + walking stick) on the frozen canonical body, guarding tail attachment at the tail root (Tr).   
+Validate Gypsa with her canonical equipment in **all-fours / Squirrel-Mode** poses (stick stowed on the pack), preserving proportions, corrected ears, gray-dominant fur, and tail attachment at the root (Tr).   
 
 ### Current Hypothesis:  
 *No current working hypothesis*  
@@ -55,6 +55,9 @@ Assemble Gypsa with her canonical equipment (backpack + bandana + walking stick)
 - Canonical Backpack (acorn flap; `Gypsa Backpack.md` + `Gypsa Canonical Backpack Reference.png`)  
 - Canonical Walking Stick (structure; `Gypsa Walking Stick.md`)  
 - Canonical Bandana (`Gypsa Bandana.md`)  
+- Provisional Full-Body Upright Pose (`Gypsa Provisional Full Body Upright Pose.png`) — first assembled full-body reference, front 3/4, stick held  
+- Provisional Full-Body Back Pose (`Gypsa Provisional Full Body Back Pose.png`) — rear 3/4, stick stowed; corrected ears + fur; best full-body render  
+- Canonical Walking Stick standalone reference (`Gypsa Canonical Walking Stick Reference.png`)  
 
 ### Current Working Assumptions  
 - All elements of Gypsa's head are considered canon.  
@@ -89,12 +92,14 @@ Decided to pause further work on full svg models.  Structural References are con
 ✓ Canonical Backpack (acorn flap, side-mounted stick, top loop + acorn charm, back-mounted straps)  
 ✓ Canonical Walking Stick (structure)  
 ✓ Canonical Bandana (green, front square knot)  
+✓ Full-body upright front pose (stick held) — provisional  
+✓ Full-body rear pose (stick stowed) — provisional; corrected ears + fur  
 
 ### Next Deliverable  
-- Full-body render of Gypsa wearing her canonical equipment (frozen body, tail attached at Tr).   
+- All-fours ("Squirrel Mode") full-body pose(s) with equipment, stick stowed.   
 
 ### Current Question:  
-*How do Gypsa's canonical equipment pieces sit together on her body without disturbing the frozen geometry (especially tail attachment)?*  
+*How does Gypsa read on all fours (Squirrel Mode) with her pack and stowed stick, keeping the same skeleton re-articulated and the tail at the root?*  
 
 ## Upcoming  
 ### Next  
@@ -112,6 +117,7 @@ Decided to pause further work on full svg models.  Structural References are con
 **Watch Items**  (Items partially addressed but not fully canon):  
 - Muzzle profile projection — may appear slightly shorter/flatter in profile. Largely resolved but watch for it during body integration views.  
 - Ear root placement in 3/4 and profile — ears had a tendency to drift upward/backward. Partially addressed after extensive work. Accept current state and adjust if needed in context.  
+- Ear **forward-turn** — in full-body renders the ears repeatedly rotate/lean too far forward over the face instead of sitting low on the sides of the skull rising up and slightly outward. **Resolved in practice** in the back-pose render; keep calling it out explicitly in every full-body prompt and validate against `Gypsa Canonical Ear.png`.  
 - Forehead tuft rotation — not fully defined across all views. Minor; will become clearer during full character turnaround.  
 - Gypsa's tail fur direction.  The renderer tends to switch fur direction for some tail centerline shapes.  
 

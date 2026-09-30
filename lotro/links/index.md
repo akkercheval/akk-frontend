@@ -39,6 +39,11 @@ Curated links to other LotRO written guides, wikis, tools, and streamers worth f
 - [Bludborn: X](https://x.com/bludborn)  
 - [Bludborn: YouTube](https://www.youtube.com/@bludborn)  
 
+### CrossRhodes  
+*CrossRhodes is an all-around gamer who also has some good LotRO content*  
+[CrossRhodes: YouTube](https://www.youtube.com/@crossrhodes-yt)  
+
+
 ### Druidsfire  
 *Druidsfire is an official LotRO and DDO streamer.*  
 

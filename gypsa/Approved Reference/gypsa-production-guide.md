@@ -1,6 +1,6 @@
 # Gypsa the Squirrel's Production Guide
 
-## SVG Standards
+## Image Standards
 
 - ViewBox: 1000 × 1000
 - Transparent background
