@@ -1,7 +1,7 @@
 import CanonicalDoc, { type CanonicalImage } from '../../components/CanonicalDoc'
 import content from '../../../gypsa/Approved Reference/gypsa-canonical-head-construction-guide.md?raw'
 import neutralPose from '../../../gypsa/Approved Reference/Gypsa Canonical Head Neutral Pose.png?url'
-import referenceViews from '../../../gypsa/Approved Reference/Gypsa Canonical Head Reference Views 20260817.png?url'
+import referenceViews from '../../../gypsa/Approved Reference/Gypsa Canonical Head Reference Views.png?url'
 import muzzle from '../../../gypsa/Approved Reference/Gypsa Canonical Muzzle.png?url'
 import expressions from '../../../gypsa/Approved Reference/Gypsa Head Expressions.png?url'
 import profileView from '../../../gypsa/Approved Reference/Gypsa Profile View.png?url'
