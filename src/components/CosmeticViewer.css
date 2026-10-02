@@ -1,0 +1,107 @@
+/* ===== Cosmetic Viewer ===== */
+/*
+ * Interactive single-image viewer with grouped selector buttons.
+ *
+ * Sizing goal: the selected image + the buttons should all stay visible within
+ * the browser window. Every image renders at the SAME height regardless of its
+ * real dimensions (so switching views doesn't jump the layout), while the width
+ * scales proportionally via object-fit so nothing looks distorted.
+ *
+ * The height is derived from the viewport with calc(): we subtract a reserve for
+ * the site header, page title/back-link, the two button rows, the caption, and
+ * breathing room. clamp() keeps the image within a sane min/max on very short or
+ * very tall windows.
+ */
+
+.cosmetic-viewer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin: 1rem 0 1.5rem;
+}
+
+.cosmetic-viewer-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.cosmetic-viewer-group-label {
+  font-family: var(--font-heading);
+  color: var(--color-bark);
+  font-weight: 600;
+  font-size: 0.95rem;
+  min-width: 4.5rem;
+}
+
+.cosmetic-viewer-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.cosmetic-viewer-button {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  padding: 0.35rem 0.85rem;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid var(--color-bark-light);
+  border-radius: 999px;
+  color: var(--color-bark);
+  cursor: pointer;
+  transition: transform 0.12s ease, background-color 0.12s ease,
+    border-color 0.12s ease, color 0.12s ease;
+}
+
+.cosmetic-viewer-button:hover {
+  transform: translateY(-1px);
+  border-color: var(--color-leaf);
+}
+
+.cosmetic-viewer-button.is-active {
+  background: var(--color-leaf);
+  border-color: var(--color-leaf);
+  color: #fff;
+}
+
+.cosmetic-viewer-button:focus-visible {
+  outline: 3px solid var(--color-acorn);
+  outline-offset: 2px;
+}
+
+.cosmetic-viewer-stage {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cosmetic-viewer-image {
+  /* Same height for every image; width scales to preserve aspect ratio. */
+  height: clamp(260px, calc(100vh - 22rem), 820px);
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.03);
+}
+
+.cosmetic-viewer-caption {
+  margin-top: 0.5rem;
+  font-size: 0.85rem;
+  color: var(--color-text-light);
+  font-style: italic;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .cosmetic-viewer-group-label {
+    min-width: 100%;
+  }
+
+  .cosmetic-viewer-image {
+    /* Mobile has more vertical chrome; reserve a little more space. */
+    height: clamp(220px, calc(100vh - 24rem), 620px);
+  }
+}

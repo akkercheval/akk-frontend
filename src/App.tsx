@@ -33,6 +33,14 @@ import BadharalTheGorger from './pages/lotro/BadharalTheGorger'
 import Maukhorn from './pages/lotro/Maukhorn'
 import LegionOfLhaereth from './pages/lotro/LegionOfLhaereth'
 import ZamaktarThePutrescent from './pages/lotro/ZamaktarThePutrescent'
+import LotroExpansions from './pages/lotro/Expansions'
+import WolvesOfMordor from './pages/lotro/WolvesOfMordor'
+import WolvesPreOrderGuide from './pages/lotro/WolvesPreOrderGuide'
+import WolvesWereWolfHunters from './pages/lotro/WolvesWereWolfHunters'
+import WolvesDauntlessCommander from './pages/lotro/WolvesDauntlessCommander'
+import WolvesMountsWarSteeds from './pages/lotro/WolvesMountsWarSteeds'
+import WolvesDauntlessWarSteed from './pages/lotro/WolvesDauntlessWarSteed'
+import WolvesWereWolfWarSteed from './pages/lotro/WolvesWereWolfWarSteed'
 import LotroInstances from './pages/lotro/Instances'
 import LotroNewPlayer from './pages/lotro/NewPlayer'
 import LotroClasses from './pages/lotro/Classes'
@@ -78,6 +86,14 @@ function App() {
           <Route path="lotro/raids/folly-of-nagakhedi/maukhorn" element={<Maukhorn />} />
           <Route path="lotro/raids/folly-of-nagakhedi/legion-of-lhaereth" element={<LegionOfLhaereth />} />
           <Route path="lotro/raids/folly-of-nagakhedi/zamaktar-the-putrescent" element={<ZamaktarThePutrescent />} />
+          <Route path="lotro/expansions" element={<LotroExpansions />} />
+          <Route path="lotro/expansions/wolves-of-mordor" element={<WolvesOfMordor />} />
+          <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide" element={<WolvesPreOrderGuide />} />
+          <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide/were-wolf-hunters" element={<WolvesWereWolfHunters />} />
+          <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide/dauntless-commander" element={<WolvesDauntlessCommander />} />
+          <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide/mounts-and-war-steeds" element={<WolvesMountsWarSteeds />} />
+          <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide/dauntless-commander-war-steed" element={<WolvesDauntlessWarSteed />} />
+          <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide/were-wolf-hunters-war-steed" element={<WolvesWereWolfWarSteed />} />
           <Route path="lotro/instances" element={<LotroInstances />} />
           <Route path="lotro/new-player" element={<LotroNewPlayer />} />
           <Route path="lotro/classes" element={<LotroClasses />} />

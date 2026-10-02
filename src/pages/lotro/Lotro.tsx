@@ -15,6 +15,11 @@ const sections: SectionLink[] = [
     blurb: 'Written strategy for the 12-person raid and group instances',
   },
   {
+    to: '/lotro/expansions',
+    title: 'Expansions',
+    blurb: 'Pre-order guides, cosmetic previews, and new systems by expansion',
+  },
+  {
     to: '/lotro/new-player',
     title: 'New Player Guides',
     blurb: 'Getting started in Middle-earth without the overwhelm',
