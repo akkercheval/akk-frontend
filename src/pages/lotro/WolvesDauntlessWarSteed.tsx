@@ -6,8 +6,16 @@ const BASE = '/images/LotRO/wolves-of-mordor'
 
 const views: CosmeticView[] = [
   {
-    id: 'full',
-    label: 'Full Set',
+    id: 'full-undyed',
+    label: 'Full Set (Undyed)',
+    group: 'Piece',
+    src: `${BASE}/dauntless-commander-war-steed-all-undyed.png`,
+    alt: "Dauntless Commander's war-steed, full set, undyed",
+    caption: 'Full set — undyed',
+  },
+  {
+    id: 'full-navy',
+    label: 'Full Set (Navy)',
     group: 'Piece',
     src: `${BASE}/dauntless-commander-war-steed-all-navy.png`,
     alt: "Dauntless Commander's war-steed, full set with Navy dye",
@@ -81,7 +89,7 @@ export default function WolvesDauntlessWarSteed() {
         Pick a piece below; the image resizes to fit your window.
       </p>
 
-      <CosmeticViewer views={views} defaultViewId="full" />
+      <CosmeticViewer views={views} defaultViewId="full-undyed" />
 
       <LotroDisclaimer />
     </section>

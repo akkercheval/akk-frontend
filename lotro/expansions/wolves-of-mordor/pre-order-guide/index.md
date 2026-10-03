@@ -21,8 +21,9 @@ A few notes before the galleries:
   colours and only tints the horse&rsquo;s tail hair, not the cosmetic itself.
 - Several war-steed shots show a single piece equipped at a time, so you can see
   exactly what each slot adds.
-- The female Beorning shots currently also include the Hunter&rsquo;s Hound pet.
-  I&rsquo;ll swap in a cleaner isolated shot of the pet later.
+- An isolated shot of Scar&rsquo; the Hunter&rsquo;s Hound pet is on the
+  Were-wolf Hunter&rsquo;s Set page (the female Beorning shots also show the
+  hound alongside the armour).
 
 ## Pre-Order Editions at a Glance
 

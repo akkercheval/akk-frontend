@@ -41,9 +41,9 @@ const views: CosmeticView[] = [
     id: 'hobbit',
     label: 'Hobbit',
     group: 'Race',
-    src: `${BASE}/were-wolf-hunters-f-hobbit-evendim-blue-dye.png`,
-    alt: "Were-wolf Hunter's set on a female hobbit, dyed Evendim Blue",
-    caption: 'Female Hobbit — dyed Evendim Blue (no undyed hobbit shot yet)',
+    src: `${BASE}/were-wolf-hunters-f-hobbit-undyed.png`,
+    alt: "Were-wolf Hunter's set on a female hobbit, undyed",
+    caption: 'Female Hobbit — undyed',
   },
   {
     id: 'cloak-hooded',
@@ -68,6 +68,14 @@ const views: CosmeticView[] = [
     src: `${BASE}/were-wolf-hunters-f-hobbit-cloak-evendim-blue-dye.png`,
     alt: "Were-wolf Hunter's hooded cloak dyed Evendim Blue on a female hobbit",
     caption: 'Hooded cloak dyed Evendim Blue (Female Hobbit)',
+  },
+  {
+    id: 'hound',
+    label: "Hunter's Hound",
+    group: 'Options',
+    src: `${BASE}/the-hunters-hound.png`,
+    alt: "Scar' the Hunter's Hound cosmetic pet",
+    caption: "Scar' the Hunter's Hound — cosmetic pet (Collector's / Ultimate)",
   },
 ]
 

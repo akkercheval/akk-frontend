@@ -41,9 +41,9 @@ const views: CosmeticView[] = [
     id: 'hobbit',
     label: 'Hobbit',
     group: 'Race',
-    src: `${BASE}/dauntless-commander-f-hobbit-evendim-blue-dye.png`,
-    alt: "Dauntless Commander's set on a female hobbit, dyed Evendim Blue",
-    caption: 'Female Hobbit — dyed Evendim Blue (no undyed hobbit shot yet)',
+    src: `${BASE}/dauntless-commander-f-hobbit-undyed.png`,
+    alt: "Dauntless Commander's set on a female hobbit, undyed",
+    caption: 'Female Hobbit — undyed',
   },
   {
     id: 'cloak-hooded',
