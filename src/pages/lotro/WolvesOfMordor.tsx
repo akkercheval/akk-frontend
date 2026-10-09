@@ -15,6 +15,12 @@ const guides: GuideLink[] = [
     blurb:
       'What each pre-order package includes, plus how the cosmetics look across every race, dyed and undyed',
   },
+  {
+    to: '/lotro/expansions/wolves-of-mordor/neighbours',
+    title: 'Neighbours Guide',
+    blurb:
+      'How to unlock the launch Neighbours, earn reputation, and where to find each one \u2014 with in-game screenshots, no quest spoilers',
+  },
 ]
 
 export default function WolvesOfMordor() {

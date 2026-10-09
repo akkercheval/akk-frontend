@@ -36,6 +36,7 @@ import ZamaktarThePutrescent from './pages/lotro/ZamaktarThePutrescent'
 import LotroExpansions from './pages/lotro/Expansions'
 import WolvesOfMordor from './pages/lotro/WolvesOfMordor'
 import WolvesPreOrderGuide from './pages/lotro/WolvesPreOrderGuide'
+import WolvesNeighbors from './pages/lotro/WolvesNeighbors'
 import WolvesWereWolfHunters from './pages/lotro/WolvesWereWolfHunters'
 import WolvesDauntlessCommander from './pages/lotro/WolvesDauntlessCommander'
 import WolvesMountsWarSteeds from './pages/lotro/WolvesMountsWarSteeds'
@@ -88,6 +89,7 @@ function App() {
           <Route path="lotro/raids/folly-of-nagakhedi/zamaktar-the-putrescent" element={<ZamaktarThePutrescent />} />
           <Route path="lotro/expansions" element={<LotroExpansions />} />
           <Route path="lotro/expansions/wolves-of-mordor" element={<WolvesOfMordor />} />
+          <Route path="lotro/expansions/wolves-of-mordor/neighbours" element={<WolvesNeighbors />} />
           <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide" element={<WolvesPreOrderGuide />} />
           <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide/were-wolf-hunters" element={<WolvesWereWolfHunters />} />
           <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide/dauntless-commander" element={<WolvesDauntlessCommander />} />
