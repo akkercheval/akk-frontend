@@ -173,6 +173,8 @@ backward without flattening into fear or aggression.
 
 ## 6. Soft Layered Sweep --- Forehead & Crown Fur
 
+**Authority (updated 2026-10-09):** [Gypsa Crown Fur Specification](Gypsa%20Crown%20Fur%20Specification.md) v1.0 governs this feature. Origin is centered between the ears at the rear crown. Sweep is clockwise **viewed directly from the front**, initially toward image-right / Gypsa's left ear, then curving inward to the longest tip on the facial midline. The neutral tip height is halfway vertically between eye-opening top and the lowest **center-facing** eyelash point for each eye. Project the same volume into other views; do not recenter by screen-space eye averages. Older references' “Gypsa's right” sweep wording is superseded.
+
 ### Approved direction
 
 Gypsa does not have human hair. She has an area of naturally longer
@@ -210,6 +212,7 @@ not create a raised forelock followed by an abrupt drop.
 -   Maintain gentle natural asymmetry.
 -   The lowest front tuft may approach the Organic Fur Brow but should
     not overlap it in the neutral canonical head.
+-   The longest central tip may descend **between** the brows to the specified eye/lash midpoint. Keep both brows fully visible; do not require all tips to remain above brow-top height.
 -   A small additional tuft may add fullness on the opposite side, but
     it must belong to the same flow rather than appearing as a separate
     decorative spike.

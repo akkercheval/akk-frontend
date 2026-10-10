@@ -1,0 +1,61 @@
+.class-guide-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.class-guide-icon {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+  /* Pull the icon's optical weight in line with the text baseline area */
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .class-guide-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Smooth in-page jumps and keep the target heading clear of the top edge */
+.class-guide {
+  scroll-behavior: smooth;
+}
+
+.class-guide h2[id],
+.class-guide h3[id] {
+  scroll-margin-top: 1rem;
+}
+
+/* Button-style anchor used for in-page jump links (e.g. "Jump to pets").
+   Markdown can't set a class on a link, so we target same-page anchor links
+   (href starting with "#") rendered inside a dedicated paragraph. */
+.class-guide .jump-link,
+.class-guide p > a[href^="#"]:only-child {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin: 0.25rem 0 1rem;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid var(--color-bark-light);
+  border-radius: 10px;
+  color: var(--color-bark);
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.class-guide .jump-link:hover,
+.class-guide p > a[href^="#"]:only-child:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(92, 61, 30, 0.2);
+  border-color: var(--color-leaf);
+}
+
+/* "Back to Classes" link at the top of each class guide */
+.class-guide-back {
+  margin-bottom: 0.75rem;
+}

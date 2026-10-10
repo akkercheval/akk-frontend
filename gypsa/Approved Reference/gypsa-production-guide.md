@@ -189,7 +189,7 @@ An emergent characteristic should:
 | Ears | Approved |
 | Eyes | Approved |
 | Eyebrows | Approved |
-| Forehead/Crown Fur | Approved |
+| Forehead/Crown Fur | Design canon: [Crown Fur Specification v1.0](Gypsa%20Crown%20Fur%20Specification.md); new landmark / cross-view appearance validation pending |
 | Complete Canonical Head | Approved |
 
 **Canonical** — The current approved reference used as the foundation for future work. Canonical does not mean immutable. Changes require evidence gained through exploration and validation rather than preference alone.

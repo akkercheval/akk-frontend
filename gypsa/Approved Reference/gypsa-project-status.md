@@ -118,7 +118,7 @@ Decided to pause further work on full svg models.  Structural References are con
 - Muzzle profile projection — may appear slightly shorter/flatter in profile. Largely resolved but watch for it during body integration views.  
 - Ear root placement in 3/4 and profile — ears had a tendency to drift upward/backward. Partially addressed after extensive work. Accept current state and adjust if needed in context.  
 - Ear **forward-turn** — in full-body renders the ears repeatedly rotate/lean too far forward over the face instead of sitting low on the sides of the skull rising up and slightly outward. **Resolved in practice** in the back-pose render; keep calling it out explicitly in every full-body prompt and validate against `Gypsa Canonical Ear.png`.  
-- Forehead tuft rotation — not fully defined across all views. Minor; will become clearer during full character turnaround.  
+- Forehead/crown fur — **design clarified 2026-10-09** in `Gypsa Crown Fur Specification.md` v1.0: rear-centered origin, front-view clockwise sweep initially toward Gypsa's left, centered tip at neutral eye-top / center-side lash midpoint. Existing images are supporting appearance references only; annotated landmark construction and new cross-view validation remain pending. Older rotation sheet does not establish compliance with these new rules.  
 - Gypsa's tail fur direction.  The renderer tends to switch fur direction for some tail centerline shapes.  
 
 ### Future Work  

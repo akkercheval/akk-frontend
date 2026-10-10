@@ -1,0 +1,51 @@
+.class-overview-link {
+  font-weight: 600;
+}
+
+.class-button-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 0.9rem;
+  margin: 1.25rem 0 1rem;
+}
+
+.class-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1.1rem 0.75rem;
+  background: rgba(255, 255, 255, 0.7);
+  border: 2px solid var(--color-bark-light);
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    border-color 0.15s ease;
+}
+
+.class-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(92, 61, 30, 0.2);
+  border-color: var(--color-leaf);
+}
+
+.class-button-icon {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  display: block;
+}
+
+.class-button-name {
+  color: var(--color-bark);
+  font-size: 1.05rem;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .class-button-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  }
+}

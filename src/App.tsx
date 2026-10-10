@@ -45,6 +45,19 @@ import WolvesWereWolfWarSteed from './pages/lotro/WolvesWereWolfWarSteed'
 import LotroInstances from './pages/lotro/Instances'
 import LotroNewPlayer from './pages/lotro/NewPlayer'
 import LotroClasses from './pages/lotro/Classes'
+import LotroClassesOverview from './pages/lotro/classes/Overview'
+import ClassBeorning from './pages/lotro/classes/Beorning'
+import ClassBrawler from './pages/lotro/classes/Brawler'
+import ClassBurglar from './pages/lotro/classes/Burglar'
+import ClassCaptain from './pages/lotro/classes/Captain'
+import ClassChampion from './pages/lotro/classes/Champion'
+import ClassGuardian from './pages/lotro/classes/Guardian'
+import ClassHunter from './pages/lotro/classes/Hunter'
+import ClassLoreMaster from './pages/lotro/classes/LoreMaster'
+import ClassMariner from './pages/lotro/classes/Mariner'
+import ClassMinstrel from './pages/lotro/classes/Minstrel'
+import ClassRuneKeeper from './pages/lotro/classes/RuneKeeper'
+import ClassWarden from './pages/lotro/classes/Warden'
 import LotroFestivals from './pages/lotro/Festivals'
 import LotroStories from './pages/lotro/Stories'
 import LotroBlog from './pages/lotro/Blog'
@@ -99,6 +112,19 @@ function App() {
           <Route path="lotro/instances" element={<LotroInstances />} />
           <Route path="lotro/new-player" element={<LotroNewPlayer />} />
           <Route path="lotro/classes" element={<LotroClasses />} />
+          <Route path="lotro/classes/overview" element={<LotroClassesOverview />} />
+          <Route path="lotro/classes/beorning" element={<ClassBeorning />} />
+          <Route path="lotro/classes/brawler" element={<ClassBrawler />} />
+          <Route path="lotro/classes/burglar" element={<ClassBurglar />} />
+          <Route path="lotro/classes/captain" element={<ClassCaptain />} />
+          <Route path="lotro/classes/champion" element={<ClassChampion />} />
+          <Route path="lotro/classes/guardian" element={<ClassGuardian />} />
+          <Route path="lotro/classes/hunter" element={<ClassHunter />} />
+          <Route path="lotro/classes/lore-master" element={<ClassLoreMaster />} />
+          <Route path="lotro/classes/mariner" element={<ClassMariner />} />
+          <Route path="lotro/classes/minstrel" element={<ClassMinstrel />} />
+          <Route path="lotro/classes/rune-keeper" element={<ClassRuneKeeper />} />
+          <Route path="lotro/classes/warden" element={<ClassWarden />} />
           <Route path="lotro/festivals" element={<LotroFestivals />} />
           <Route path="lotro/stories" element={<LotroStories />} />
           <Route path="lotro/blog" element={<LotroBlog />} />
