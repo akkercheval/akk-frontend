@@ -41,6 +41,8 @@ visit that neighbour&rsquo;s **Gift Maker** and complete a short quest to receiv
 another housing summoning item — handy for summoning the same neighbour at a
 house on a different server.
 
+[&uarr; Back to top](#neighbours-top)
+
 ## Earning Neighbour Reputation
 
 Your standing with each neighbour is tracked on the **Neighbour Info** tab of the
@@ -70,6 +72,8 @@ Generally speaking, completing a neighbour quest ports you to that
 neighbour&rsquo;s landscape location. The one exception I&rsquo;ve run into is
 **Haldo**, whose quest takes you to **Gondamon in Ered Luin** instead.
 
+[&uarr; Back to top](#neighbours-top)
+
 ## Friendship Status & Chapter Unlocks
 
 Reputation moves you through a series of friendship statuses, and new story
@@ -82,10 +86,46 @@ chapters unlock as you climb. Here&rsquo;s what I&rsquo;ve confirmed so far:
 | Casual Friend | Chapter 4 |
 | Companion | Chapter 5 |
 | Friend | Chapter 6 |
-| Close Friend | _(not yet reached — likely Chapter 7)_ |
+| Close Friend | _(no new chapter)_ |
+| Boon Companion | _(not yet confirmed)_ |
 
-I haven&rsquo;t reached **Close Friend** yet. Based on the pattern above, I expect
-Chapter 7 to unlock there, but that&rsquo;s a guess until I confirm it in-game.
+**Boon Companion** is the status that comes after Close Friend. Reaching
+**Close Friend does _not_ unlock a new chapter** — the chapter unlocks pause
+there. I haven&rsquo;t yet confirmed whether a chapter unlocks at Boon
+Companion.
+
+### Reputation Needed to Advance
+
+Each friendship status requires a set amount of friendship reputation to reach
+the next one. Here&rsquo;s what I&rsquo;ve confirmed so far:
+
+| Progression | Reputation needed |
+|---|---|
+| Companion &rarr; Friend | **675** |
+| Friend &rarr; Close Friend | **1,000** |
+| Close Friend &rarr; Boon Companion | **1,500** |
+
+> **Watch out for the reputation bar &mdash; it resets at every tier.** The
+> progress bar on the Neighbour Info panel does **not** show a running lifetime
+> total. It starts over at the beginning of each friendship status and fills up
+> toward the amount needed for the next one, and the displayed maximum is **one
+> point below** that threshold. So a Friend-tier bar reads **999 / 999** right
+> before the Close Friend tier (not 1,000), and the moment you tick over you&rsquo;re
+> at **1,000 / 1,499** working toward Boon Companion.
+>
+> When I first hit **999 / 999** I assumed I&rsquo;d maxed out my reputation
+> entirely &mdash; but that&rsquo;s just the top of the current tier, not the end
+> of the road. Don&rsquo;t stop there; keep going and the bar rolls over into the
+> next status.
+
+Here&rsquo;s the quirk in action. On the left, Brútha&rsquo;s bar sits at
+**999 / 999** at the top of the Friend tier; on the right, Haldo has rolled over
+to **1,000 / 1,499** and is working toward Boon Companion:
+
+![Brútha&rsquo;s reputation bar reading 999 / 999 at the top of the Friend tier](/images/LotRO/wolves-of-mordor/neighbors/brutha-friend-999-max.png)
+![Haldo&rsquo;s reputation bar reading 1,000 / 1,499 progressing from Close Friend to Boon Companion](/images/LotRO/wolves-of-mordor/neighbors/haldo-boon-companion-1000-1499.png)
+
+[&uarr; Back to top](#neighbours-top)
 
 ## The Four Launch Neighbours
 
@@ -101,8 +141,12 @@ Neighbour Info screenshots.
 | **Golwen** | Female Human | Playing the flute (a former sailor) | Dol Amroth — **75.5S, 72.5W** | Bree-town, near the Town Hall — **31.2S, 51.1W** |
 | **Brutha** | Female Dwarf | Woodcarving | Dale-lands, just outside Lake-town — **17.2N, 27.9W** | Thorin&rsquo;s Hall — just past the large statue, in front of the first pillar on the left |
 
+[&uarr; Back to top](#neighbours-top)
+
 ## Known Issues
 
 - **Golwen&rsquo;s Chapter 6** appears to be broken for me right now — I&rsquo;ve
   been unable to advance it past a certain point. I&rsquo;ll update this guide if
   that changes.
+
+[&uarr; Back to top](#neighbours-top)

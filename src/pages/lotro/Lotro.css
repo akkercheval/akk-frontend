@@ -50,3 +50,82 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* ===== Neighbours guide — in-page jump navigation ===== */
+.neighbours-page {
+  scroll-behavior: smooth;
+}
+
+/* Keep section headings clear of the top edge when jumped to */
+.neighbours-page h2[id],
+.neighbours-page h3[id] {
+  scroll-margin-top: 1rem;
+}
+
+.neighbours-jump {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0.75rem 0 1.5rem;
+  padding: 0.75rem 1rem;
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid var(--color-bark-light);
+  border-radius: 10px;
+}
+
+.neighbours-jump_label {
+  font-weight: 600;
+  color: var(--color-bark);
+  margin-right: 0.25rem;
+}
+
+.neighbours-jump_link {
+  display: inline-block;
+  padding: 0.35rem 0.9rem;
+  border-radius: 16px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--color-bark);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid var(--color-bark-light);
+  transition: transform 0.15s ease, box-shadow 0.15s ease,
+    border-color 0.15s ease;
+  white-space: nowrap;
+}
+
+.neighbours-jump_link:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 3px 10px rgba(92, 61, 30, 0.2);
+  border-color: var(--color-leaf);
+}
+
+.neighbours-back-to-top {
+  margin: 0.5rem 0 1.75rem;
+  font-size: 0.85rem;
+}
+
+/* Back-to-top links coming from the markdown body */
+.neighbours-page .markdown-page p > a[href="#neighbours-top"] {
+  display: inline-block;
+  margin-top: 0.25rem;
+  font-size: 0.85rem;
+}
+
+/* Lay a paragraph that holds two images (e.g. the reputation-bar comparison)
+   out side by side instead of stacked. */
+.neighbours-page .markdown-page p:has(img + img) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-start;
+}
+
+.neighbours-page .markdown-page p:has(img + img) img {
+  flex: 1 1 300px;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0;
+}
+

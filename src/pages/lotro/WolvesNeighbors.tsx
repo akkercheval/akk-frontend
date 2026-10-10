@@ -1,11 +1,46 @@
+import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
-import MarkdownPage from '../../components/MarkdownPage'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 import LotroDisclaimer from '../../components/LotroDisclaimer'
 import CosmeticViewer, { type CosmeticView } from '../../components/CosmeticViewer'
 import content from '../../../lotro/expansions/wolves-of-mordor/neighbors/index.md?raw'
+import '../../components/MarkdownPage.css'
 import './Lotro.css'
 
 const BASE = '/images/LotRO/wolves-of-mordor/neighbors'
+
+const TOP_ID = 'neighbours-top'
+
+/** In-page sections, in the order they appear, for the jump-link bar. */
+const pageSections: { id: string; label: string }[] = [
+  { id: 'unlocking-neighbours', label: 'Unlocking Neighbours' },
+  { id: 'earning-neighbour-reputation', label: 'Earning Reputation' },
+  { id: 'friendship-status-chapter-unlocks', label: 'Friendship & Chapters' },
+  { id: 'the-four-launch-neighbours', label: 'The Four Neighbours' },
+  { id: 'known-issues', label: 'Known Issues' },
+  { id: 'selection-the-neighbour-info-panel', label: 'Selection & Info Panel' },
+  { id: 'the-neighbours', label: 'Neighbour Galleries' },
+]
+
+/** Slugify heading text to match the ids used in the jump-link bar. */
+function slugify(children: ReactNode): string {
+  return extractText(children)
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/[\s-]+/g, '-')
+}
+
+function extractText(node: ReactNode): string {
+  if (node == null || node === false) return ''
+  if (typeof node === 'string' || typeof node === 'number') return String(node)
+  if (Array.isArray(node)) return node.map(extractText).join('')
+  if (typeof node === 'object' && 'props' in node) {
+    return extractText((node as { props: { children?: ReactNode } }).props.children)
+  }
+  return ''
+}
 
 interface NeighbourGallery {
   id: string
@@ -252,26 +287,55 @@ const selectionViews: CosmeticView[] = [
   },
 ]
 
+function BackToTop() {
+  return (
+    <p className="neighbours-back-to-top">
+      <a href={`#${TOP_ID}`}>&uarr; Back to top</a>
+    </p>
+  )
+}
+
 export default function WolvesNeighbors() {
   return (
-    <section className="page-card">
+    <section className="page-card neighbours-page" id={TOP_ID}>
       <p>
         <Link to="/lotro/expansions/wolves-of-mordor">
           &larr; Back to The Wolves of Mordor
         </Link>
       </p>
 
-      <MarkdownPage content={content} />
+      <nav className="neighbours-jump" aria-label="Jump to a section">
+        <span className="neighbours-jump_label">Jump to:</span>
+        {pageSections.map((s) => (
+          <a key={s.id} href={`#${s.id}`} className="neighbours-jump_link">
+            {s.label}
+          </a>
+        ))}
+      </nav>
 
-      <h2>Selection &amp; the Neighbour Info Panel</h2>
+      <div className="markdown-page">
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+          components={{
+            h2: ({ children }) => <h2 id={slugify(children)}>{children}</h2>,
+          }}
+        >
+          {content}
+        </ReactMarkdown>
+      </div>
+
+      <h2 id="selection-the-neighbour-info-panel">
+        Selection &amp; the Neighbour Info Panel
+      </h2>
       <p>
         The screenshots below show the Standard edition&rsquo;s double-selection
         box, a selection tooltip, and the empty Neighbour Info tab before you
         unlock anyone.
       </p>
       <CosmeticViewer views={selectionViews} defaultViewId="double-selection" />
+      <BackToTop />
 
-      <h2>The Neighbours</h2>
+      <h2 id="the-neighbours">The Neighbours</h2>
       <p>
         Each gallery includes the summoned appearance, landscape location,
         housing summoning item, journal, and Neighbour Info panel. Chapter quest
@@ -285,6 +349,7 @@ export default function WolvesNeighbors() {
           <CosmeticViewer views={neighbour.views} defaultViewId={neighbour.views[0]?.id} />
         </div>
       ))}
+      <BackToTop />
 
       <LotroDisclaimer />
     </section>
