@@ -167,9 +167,19 @@ Neighbour Info screenshots.
 
 ## Known Issues
 
-Both of these quests can bug out, but each has a workaround. The fixes involve
-small quest-step spoilers, so they&rsquo;re tucked inside the toggles below —
-click to expand only if you want to read them.
+- **Golwen on Legendary Servers — wrong exit port (no spoilers).** On the
+  **Angmar Legendary Server**, **Golwen&rsquo;s Chapter 2** flagged my character
+  (a level 103) with &ldquo;_You have entered a restricted area and will be
+  removed if you do not leave_,&rdquo; yet I was still able to complete the
+  instance normally. On exiting, though, I was returned to my starting town
+  (**Mossward**) instead of being ported to **Dol Amroth** as expected. This
+  looks like a Legendary Server&ndash;specific bug and may affect any of
+  Golwen&rsquo;s quests. So far it hasn&rsquo;t affected any of the other
+  neighbours.
+
+The two quests below can also bug out, but each has a workaround. The fixes
+involve small quest-step spoilers, so they&rsquo;re tucked inside the toggles
+below — click to expand only if you want to read them.
 
 <details>
 <summary><strong>Golwen&rsquo;s Chapter 6 — quest bug &amp; workaround (spoilers)</strong></summary>
