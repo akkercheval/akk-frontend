@@ -12,6 +12,19 @@ in the practical details a new neighbour-collector actually needs: how selection
 boxes work, how reputation adds up, and the landscape and Gift Maker locations
 for each of the four launch neighbours.
 
+> **⚠️ Low-level characters, beware the landscape locations.** Some neighbours
+> sit in **high-level zones**. **Brútha**, for example, is out in a **level 115**
+> area near **Lake-town**. A low-level character who ports there (for instance by
+> completing a quest) will have **no safe way to travel out on foot** &mdash; your
+> only real exit is to **map away** to a safer destination. Straying far from
+> Lake-town is dangerous.
+>
+> That word is literal here: much of this region is flagged as a **Dangerous
+> Place**. In a Dangerous Place, enemies notice and **attack from a much greater
+> distance than normal**, and if you are defeated you don&rsquo;t just revive
+> nearby &mdash; you **retreat all the way back to your milestone location**. Keep
+> a map route handy before you visit.
+
 ## Unlocking Neighbours
 
 Right now the only way to gain access to neighbours is through one of the
@@ -88,42 +101,51 @@ chapters unlock as you climb. Here&rsquo;s what I&rsquo;ve confirmed so far:
 | Friend | Chapter 6 |
 | Close Friend | _(no new chapter)_ |
 | Boon Companion | _(not yet confirmed)_ |
+| Confidant | _(not yet confirmed)_ |
 
 **Boon Companion** is the status that comes after Close Friend. Reaching
 **Close Friend does _not_ unlock a new chapter** — the chapter unlocks pause
 there. I haven&rsquo;t yet confirmed whether a chapter unlocks at Boon
 Companion.
 
+**Confidant** is the status that comes after Boon Companion. I haven&rsquo;t yet
+confirmed whether a chapter unlocks at Confidant either.
+
 ### Reputation Needed to Advance
 
-Each friendship status requires a set amount of friendship reputation to reach
-the next one. Here&rsquo;s what I&rsquo;ve confirmed so far:
+Friendship reputation is a **single cumulative total** that keeps climbing &mdash;
+it does **not** reset between statuses. Each status unlocks when your lifetime
+total reaches a set threshold. Here&rsquo;s what I&rsquo;ve confirmed so far:
 
-| Progression | Reputation needed |
+| Status reached | Cumulative reputation |
 |---|---|
-| Companion &rarr; Friend | **675** |
-| Friend &rarr; Close Friend | **1,000** |
-| Close Friend &rarr; Boon Companion | **1,500** |
+| Stranger | **0** |  
+| Acquaintance | **125** |  
+| Casual Friend | ? |  
+| Companion | ? |  
+| Friend | **675** |
+| Close Friend | **1,000** |
+| Boon Companion | **1,500** |
+| Confidant | **2,275** |
 
-> **Watch out for the reputation bar &mdash; it resets at every tier.** The
-> progress bar on the Neighbour Info panel does **not** show a running lifetime
-> total. It starts over at the beginning of each friendship status and fills up
-> toward the amount needed for the next one, and the displayed maximum is **one
-> point below** that threshold. So a Friend-tier bar reads **999 / 999** right
-> before the Close Friend tier (not 1,000), and the moment you tick over you&rsquo;re
-> at **1,000 / 1,499** working toward Boon Companion.
+> **The reputation bar is cumulative &mdash; it does _not_ reset at each tier.**
+> The progress bar on the Neighbour Info panel shows your **running lifetime
+> total** on the left and the **next status&rsquo;s threshold minus one** on the
+> right. So the bar fills continuously across your whole climb: the moment you
+> reach Boon Companion at 1,500 the bar keeps right on counting toward Confidant,
+> reading something like **1,513 / 2,274** (2,274 being one point below the
+> 2,275 Confidant threshold).
 >
-> When I first hit **999 / 999** I assumed I&rsquo;d maxed out my reputation
-> entirely &mdash; but that&rsquo;s just the top of the current tier, not the end
-> of the road. Don&rsquo;t stop there; keep going and the bar rolls over into the
-> next status.
+> I originally thought the bar reset at every tier &mdash; it doesn&rsquo;t. When
+> you tick over into a new status the number just keeps climbing toward the next
+> threshold; it never drops back to zero.
 
-Here&rsquo;s the quirk in action. On the left, Brútha&rsquo;s bar sits at
-**999 / 999** at the top of the Friend tier; on the right, Haldo has rolled over
-to **1,000 / 1,499** and is working toward Boon Companion:
+Here&rsquo;s the cumulative bar in action. Brútha has just reached Boon Companion
+and the bar already reads **1,513 / 2,274**, well on its way toward the 2,275
+needed for Confidant &mdash; proof the total carries straight over rather than
+resetting:
 
-![Brútha&rsquo;s reputation bar reading 999 / 999 at the top of the Friend tier](/images/LotRO/wolves-of-mordor/neighbors/brutha-friend-999-max.png)
-![Haldo&rsquo;s reputation bar reading 1,000 / 1,499 progressing from Close Friend to Boon Companion](/images/LotRO/wolves-of-mordor/neighbors/haldo-boon-companion-1000-1499.png)
+![Brútha&rsquo;s reputation bar reading 1,513 / 2,274 just after reaching Boon Companion, progressing toward Confidant](/images/LotRO/wolves-of-mordor/neighbors/brutha-boon-companion-1513-2274.png)
 
 [&uarr; Back to top](#neighbours-top)
 
@@ -145,8 +167,31 @@ Neighbour Info screenshots.
 
 ## Known Issues
 
-- **Golwen&rsquo;s Chapter 6** appears to be broken for me right now — I&rsquo;ve
-  been unable to advance it past a certain point. I&rsquo;ll update this guide if
-  that changes.
+Both of these quests can bug out, but each has a workaround. The fixes involve
+small quest-step spoilers, so they&rsquo;re tucked inside the toggles below —
+click to expand only if you want to read them.
+
+<details>
+<summary><strong>Golwen&rsquo;s Chapter 6 — quest bug &amp; workaround (spoilers)</strong></summary>
+
+**Golwen&rsquo;s Chapter 6** can bug after you help her search for something and
+then talk to her. To avoid the bug, follow her closely until she stops. Watch the
+seagull fly off, then follow it up the stairs. The quest should update with:
+
+> The seagull seems to have left something behind&hellip;
+
+There should then be a glowing spot down the stairs, near the fountain, that you
+can click on. When the quest is bugged, this glowing spot cannot be clicked.
+
+</details>
+
+<details>
+<summary><strong>Emmathron&rsquo;s Chapter 4 — quest bug &amp; workaround (spoilers)</strong></summary>
+
+**Emmathron&rsquo;s Chapter 4** can also bug. He will ask you to take a look at
+his sketchbook, then walk away toward a tree. **Do not click the sketchbook until
+he stops walking** — clicking too early will bug the quest.
+
+</details>
 
 [&uarr; Back to top](#neighbours-top)

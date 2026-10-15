@@ -129,3 +129,80 @@
   margin: 0;
 }
 
+
+/* ===== Neighbours guide — spoiler toggles (details/summary) ===== */
+.neighbours-page .markdown-page details {
+  margin: 1rem 0;
+  border: 2px solid var(--color-bark-light);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+  overflow: hidden;
+}
+
+.neighbours-page .markdown-page details[open] {
+  border-color: var(--color-leaf);
+}
+
+.neighbours-page .markdown-page details > summary {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1rem;
+  cursor: pointer;
+  list-style: none;
+  color: var(--color-bark);
+  font-size: 0.95rem;
+  user-select: none;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+/* Hide the native disclosure marker across browsers */
+.neighbours-page .markdown-page details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.neighbours-page .markdown-page details > summary::marker {
+  content: '';
+}
+
+/* Custom triangle marker that rotates when open */
+.neighbours-page .markdown-page details > summary::before {
+  content: '';
+  flex: 0 0 auto;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.32rem 0 0.32rem 0.5rem;
+  border-color: transparent transparent transparent var(--color-bark);
+  transition: transform 0.15s ease;
+}
+
+.neighbours-page .markdown-page details[open] > summary::before {
+  transform: rotate(90deg);
+}
+
+.neighbours-page .markdown-page details > summary:hover {
+  background: rgba(74, 124, 63, 0.08);
+}
+
+.neighbours-page .markdown-page details > summary strong {
+  color: var(--color-bark);
+}
+
+/* Expanded spoiler body — tinted like a soft warning panel */
+.neighbours-page .markdown-page details[open] > summary {
+  border-bottom: 1px solid rgba(139, 94, 60, 0.2);
+}
+
+.neighbours-page .markdown-page details > *:not(summary) {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.neighbours-page .markdown-page details > *:not(summary):first-of-type {
+  margin-top: 0.9rem;
+}
+
+.neighbours-page .markdown-page details > *:not(summary):last-child {
+  margin-bottom: 0.9rem;
+}

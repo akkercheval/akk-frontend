@@ -2,6 +2,7 @@ import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
+import rehypeRaw from 'rehype-raw'
 import LotroDisclaimer from '../../components/LotroDisclaimer'
 import CosmeticViewer, { type CosmeticView } from '../../components/CosmeticViewer'
 import content from '../../../lotro/expansions/wolves-of-mordor/neighbors/index.md?raw'
@@ -316,6 +317,7 @@ export default function WolvesNeighbors() {
       <div className="markdown-page">
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
+          rehypePlugins={[rehypeRaw]}
           components={{
             h2: ({ children }) => <h2 id={slugify(children)}>{children}</h2>,
           }}

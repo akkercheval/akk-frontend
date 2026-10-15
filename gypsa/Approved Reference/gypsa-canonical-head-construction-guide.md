@@ -136,18 +136,35 @@ Gypsa has **squirrel ears, not cat ears and not rabbit ears**.
 -   Rounded upper contour.
 -   Gentle inward curve.
 -   Broad, natural base.
--   Attached **low on the sides of the skull**, not perched on top.
--   Ears are attached to the sides of the head and face each side, NOT the front.
+-   Broad, natural base.
+-   Attachment and rotation depend on **orientation** (resting vs. attentive) —
+    see below and `Ear Specification.md`.
+
+### Orientation: resting vs. attentive (updated 2026-10-11)
+
+Real squirrels rotate their ears toward their attention. The canonical Soft-Taper
+ear has two orientations of the **same shape**:
+
+-   **Resting / relaxed** (profile, 3/4, calm poses): low side-mount, gentle
+    **inward curl**, seen largely edge-on; interior not presented to the viewer.
+    This is the orientation in `Gypsa Canonical Ear.png`.
+-   **Attentive / front-facing** (CANON for the front "watching-you" pose): ears
+    **rotate outward and forward** so the **cupped inner ear faces the viewer**,
+    mounted a little **higher** on the sides and **splayed outward**. The upper
+    contour stays a soft rounded dome. See `Ear Specification.md` for the full
+    definition; reference images are `../Rendering/Attentive squirrel reference.png`
+    and `Gypsa Front Pose Ear Edit 202610111023.png`.
 
 ### Front view
 
 -   Gypsa faces directly forward.
 -   Ears are symmetrical in height and placement.
--   Only the **front edge** of each ear is visible; the interior should
-    not face the viewer.
--   Ear bases attach low on the sides and emerge naturally.
--   Tips rise only slightly above the skull.
--   Rear edges slope backward and outward from the head.
+-   **Attentive front pose (canonical default):** the ears rotate outward/forward
+    so the warm cupped **interior faces the viewer**, splayed in a soft outward
+    fan. This supersedes the older "interior must not face the viewer" rule for the
+    engaged front pose.
+-   Tips present a **rounded dome**, not a sharp point; the rounded cranium stays
+    full above and between the ears.
 
 ### 3/4 view
 
@@ -258,10 +275,12 @@ skull.
 These relationships should be treated as constraints during future
 rendering:
 
--   Ear bases remain low on the sides of the skull.
--   Ear size and physical shape remain constant across neutral
-    rotations.
--   Front-view ears do not turn their interiors toward the viewer.
+-   Ear bases remain on the sides of the skull (low in resting orientation; a
+    little higher and splayed outward in the attentive front orientation).
+-   Ear size and physical shape (Soft Taper, rounded dome, broad base) remain
+    constant across orientations; only rotation/mount changes.
+-   **Attentive front-view ears turn their cupped interiors toward the viewer**
+    (updated 2026-10-11). Resting/profile/3-4 ears remain edge-on.
 -   Profile front/root attachment sits just above the eye line.
 -   Profile rear/root attachment sits lower and farther back.
 -   Rounded cranial volume continues behind the ear.
