@@ -65,21 +65,13 @@ import LotroLinks from './pages/lotro/Links'
 
 // Gypsa
 import MakingOfGypsa from './pages/gypsa/MakingOfGypsa'
-import ProjectStatus from './pages/gypsa/ProjectStatus'
-import CharacterBible from './pages/gypsa/CharacterBible'
-import ProductionGuide from './pages/gypsa/ProductionGuide'
-import BodyDummy from './pages/gypsa/BodyDummy'
-import HeadConstructionGuide from './pages/gypsa/HeadConstructionGuide'
 import Milestones from './pages/gypsa/Milestones'
 import CanonicalDesignDocs from './pages/gypsa/CanonicalDesignDocs'
-import EarSpecification from './pages/gypsa/EarSpecification'
-import BodyConstruction from './pages/gypsa/BodyConstruction'
-import JointSystem from './pages/gypsa/JointSystem'
-import GeometryTable from './pages/gypsa/GeometryTable'
-import TailDesignSpecification from './pages/gypsa/TailDesignSpecification'
-import TailNeutralPose from './pages/gypsa/TailNeutralPose'
-import TailRenderPrompt from './pages/gypsa/TailRenderPrompt'
-import SanitizedTailRenderPrompt from './pages/gypsa/SanitizedTailRenderPrompt'
+import ReferenceGuide from './pages/gypsa/ReferenceGuide'
+import HeadAndExpression from './pages/gypsa/HeadAndExpression'
+import BodyAndTail from './pages/gypsa/BodyAndTail'
+import Equipment from './pages/gypsa/Equipment'
+import RenderingStandard from './pages/gypsa/RenderingStandard'
 
 function App() {
   return (
@@ -151,23 +143,15 @@ function App() {
 
           {/* Gypsa */}
           <Route path="gypsa" element={<MakingOfGypsa />} />
-          <Route path="gypsa/project-status" element={<ProjectStatus />} />
-          <Route path="gypsa/character-bible" element={<CharacterBible />} />
-          <Route path="gypsa/production-guide" element={<ProductionGuide />} />
-          <Route path="gypsa/body-dummy" element={<BodyDummy />} />
-          <Route path="gypsa/head-construction" element={<HeadConstructionGuide />} />
           <Route path="gypsa/milestones" element={<Milestones />} />
 
           {/* Gypsa — Canonical Design Documentation */}
           <Route path="gypsa/canonical-design" element={<CanonicalDesignDocs />} />
-          <Route path="gypsa/canonical-design/ears" element={<EarSpecification />} />
-          <Route path="gypsa/canonical-design/body-construction" element={<BodyConstruction />} />
-          <Route path="gypsa/canonical-design/joint-system" element={<JointSystem />} />
-          <Route path="gypsa/canonical-design/geometry-table" element={<GeometryTable />} />
-          <Route path="gypsa/canonical-design/tail-design" element={<TailDesignSpecification />} />
-          <Route path="gypsa/canonical-design/tail-neutral-pose" element={<TailNeutralPose />} />
-          <Route path="gypsa/canonical-design/tail-render-prompt" element={<TailRenderPrompt />} />
-          <Route path="gypsa/canonical-design/tail-render-prompt-sanitized" element={<SanitizedTailRenderPrompt />} />
+          <Route path="gypsa/reference-guide" element={<ReferenceGuide />} />
+          <Route path="gypsa/head-and-expression" element={<HeadAndExpression />} />
+          <Route path="gypsa/body-and-tail" element={<BodyAndTail />} />
+          <Route path="gypsa/equipment" element={<Equipment />} />
+          <Route path="gypsa/rendering-standard" element={<RenderingStandard />} />
 
           <Route path="*" element={<NotFound />} />
         </Route>

@@ -1,8 +1,11 @@
 import MarkdownPage from '../../components/MarkdownPage'
-import content from '../../../gypsa/Approved Reference/gypsa-production-guide.md?raw'
 import './MakingOfGypsa.css'
 
-export default function GyspaProductionGuide() {
+interface GypsaDocPageProps {
+  content: string
+}
+
+export default function GypsaDocPage({ content }: GypsaDocPageProps) {
   return (
     <div className="gypsa-notebook">
       <div className="gypsa-notebook_spiral" aria-hidden="true"></div>

@@ -25,26 +25,19 @@ export default function MakingOfGypsa() {
           <div className="gypsa-motto">
             "There's always something interesting just around the next tree."
           </div>
+          <p>
+            <em>The reference documentation is being consolidated into a new
+            five-document set (version 0.1, under review). The final canon reference
+            images are not yet produced.</em>
+          </p>
         </section>
 
         <section className="gypsa-section">
           <h3>Reference Documents</h3>
           <div className="gypsa-nav-links">
-            <Link to="/gypsa/project-status" className="gypsa-nav-card">
-              <strong>Project Status</strong>
-              <span>Current phase, goals, and roadmap</span>
-            </Link>
-            <Link to="/gypsa/character-bible" className="gypsa-nav-card">
-              <strong>Character Bible</strong>
-              <span>Personality, beliefs, equipment, and identity</span>
-            </Link>
-            <Link to="/gypsa/production-guide" className="gypsa-nav-card">
-              <strong>Production Guide</strong>
-              <span>SVG standards, colors, methodology, and construction rules</span>
-            </Link>
             <Link to="/gypsa/canonical-design" className="gypsa-nav-card">
               <strong>Canonical Design Documentation</strong>
-              <span>Head, body, and tail geometry, construction, and reference drawings</span>
+              <span>The five-document consolidated reference set: identity, head, body & tail, equipment, and rendering</span>
             </Link>
             <Link to="/gypsa/milestones" className="gypsa-nav-card">
               <strong>Design Milestones</strong>

@@ -14,72 +14,32 @@ interface DocGroup {
 
 const groups: DocGroup[] = [
   {
-    heading: 'Head',
+    heading: 'The Reference Set',
     docs: [
       {
-        to: '/gypsa/head-construction',
-        title: 'Head Construction Guide',
-        blurb: 'Approved head geometry, features, expressions, and validation rules',
+        to: '/gypsa/reference-guide',
+        title: 'Reference Guide (START HERE)',
+        blurb: 'Identity, how to use the reference set, image registry, and the render-request template.',
       },
       {
-        to: '/gypsa/canonical-design/ears',
-        title: 'Ear Specification',
-        blurb: 'Canonical squirrel-ear geometry and root/tip joint pairs',
-      },
-    ],
-  },
-  {
-    heading: 'Body & Proportions',
-    docs: [
-      {
-        to: '/gypsa/body-dummy',
-        title: 'Body Dummy Specification',
-        blurb: 'Neutral construction framework and canonical proportions',
+        to: '/gypsa/head-and-expression',
+        title: 'Head & Expression',
+        blurb: 'Skull, muzzle, eyes, ears, crown, and the eight expressions.',
       },
       {
-        to: '/gypsa/canonical-design/body-construction',
-        title: 'Body Construction',
-        blurb: 'Body landmarks, structural hierarchy, and the rigging diagram',
-      },
-    ],
-  },
-  {
-    heading: 'Tail',
-    docs: [
-      {
-        to: '/gypsa/canonical-design/tail-design',
-        title: 'Tail Design Specification',
-        blurb: 'Neutral profile tail: root, S-sweep, fur envelope, and precedence',
+        to: '/gypsa/body-and-tail',
+        title: 'Body & Tail',
+        blurb: 'Proportion unit, body and limb geometry, hands and feet, and the full tail.',
       },
       {
-        to: '/gypsa/canonical-design/tail-neutral-pose',
-        title: 'Tail Specification — Neutral Baseline',
-        blurb: 'Neutral tail landmarks, arc positions, and fur parameters',
+        to: '/gypsa/equipment',
+        title: 'Equipment',
+        blurb: 'Backpack, bandana, and walking stick: shape, scale, attachment, and carry.',
       },
       {
-        to: '/gypsa/canonical-design/tail-render-prompt',
-        title: 'Tail Render Prompt',
-        blurb: 'Canonical straight-tail fur envelope render standard',
-      },
-      {
-        to: '/gypsa/canonical-design/tail-render-prompt-sanitized',
-        title: 'Directionally Sanitized Tail Render Prompt',
-        blurb: 'Fur envelope around any supplied centerline (fixes direction drift)',
-      },
-    ],
-  },
-  {
-    heading: 'Structural References',
-    docs: [
-      {
-        to: '/gypsa/canonical-design/joint-system',
-        title: 'Joint Reference System',
-        blurb: 'Full joint name/meaning table for head, limbs, and tail',
-      },
-      {
-        to: '/gypsa/canonical-design/geometry-table',
-        title: 'Canonical Geometry Table',
-        blurb: 'Every joint coordinate, segment length, and tail control point',
+        to: '/gypsa/rendering-standard',
+        title: 'Rendering Standard',
+        blurb: 'Palette, flat-color finish, outline, transparency, and export requirements.',
       },
     ],
   },
@@ -93,12 +53,19 @@ export default function CanonicalDesignDocs() {
         <section className="gypsa-intro">
           <h2>Gypsa's Canonical Design Documentation</h2>
           <p className="subtitle">
-            The structural canon — geometry, construction, and reference drawings
+            A consolidated five-document specification set for consistent renders
           </p>
           <p>
-            These documents freeze Gypsa's approved structure so future art stays
-            on-model. Each page pairs the written specification with the canonical
-            reference images that authoritatively depict that feature.
+            Gypsa's canon is being consolidated into five documents that together
+            describe her completely — identity, head, body and tail, equipment, and
+            rendering. Each document owns its facts so there's one authoritative
+            answer for every detail.
+          </p>
+          <p>
+            <em>These five documents are a consolidated draft reference set (version
+            0.1, currently under review). The older per-feature reference documents
+            have been archived, and the final canon reference images have not been
+            produced yet.</em>
           </p>
           <div className="gypsa-motto">
             "A newer generated image never supersedes a canonical reference merely
