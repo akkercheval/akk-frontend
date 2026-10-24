@@ -65,6 +65,7 @@ import LotroLinks from './pages/lotro/Links'
 
 // Gypsa
 import MakingOfGypsa from './pages/gypsa/MakingOfGypsa'
+import EvolutionOfGypsa from './pages/gypsa/EvolutionOfGypsa'
 import Milestones from './pages/gypsa/Milestones'
 import CanonicalDesignDocs from './pages/gypsa/CanonicalDesignDocs'
 import ReferenceGuide from './pages/gypsa/ReferenceGuide'
@@ -143,6 +144,7 @@ function App() {
 
           {/* Gypsa */}
           <Route path="gypsa" element={<MakingOfGypsa />} />
+          <Route path="gypsa/evolution" element={<EvolutionOfGypsa />} />
           <Route path="gypsa/milestones" element={<Milestones />} />
 
           {/* Gypsa — Canonical Design Documentation */}

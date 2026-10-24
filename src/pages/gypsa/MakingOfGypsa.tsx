@@ -39,6 +39,10 @@ export default function MakingOfGypsa() {
               <strong>Canonical Design Documentation</strong>
               <span>The five-document consolidated reference set: identity, head, body & tail, equipment, and rendering</span>
             </Link>
+            <Link to="/gypsa/evolution" className="gypsa-nav-card">
+              <strong>Evolution of Gypsa</strong>
+              <span>Follow her design journey from first sketch to finished canon.</span>
+            </Link>
             <Link to="/gypsa/milestones" className="gypsa-nav-card">
               <strong>Design Milestones</strong>
               <span>Timeline of progress</span>
