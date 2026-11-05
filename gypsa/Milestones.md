@@ -125,3 +125,17 @@ Also accepted a **standalone canonical walking-stick render**, `Approved Referen
 ## Milestone 26 2026/10/09
 
 **Crown-fur construction consolidated and clarified by user.** Added `Approved Reference/Gypsa Crown Fur Specification.md` v1.0. Sweep begins at rear crown centered between ears; clockwise is defined looking directly at Gypsa's face, initially toward image-right / Gypsa's left ear. Longest tip lies on facial midline at halfway vertically between neutral eye-opening top and the lowest center-facing point of each eyelash contour. Both brows remain visible; central tip may descend between them. Older opposite-side sweep labels are superseded. Dedicated crown reference / rotation sheets indexed by feature role; “15% fuller” retired as a production scaling instruction. Updated Canon Summary, head guide, production guide, render brief, historical exploration note and project watch item. New annotated landmarks and appearance/rotation validation remain pending; no candidate promoted as a complete new crown master.
+
+## Milestone 27 2026/10/23
+
+**Began the canon documentation consolidation process.** Archived the entire previous Approved Reference set, byte-for-byte, into `Older Reference Revisions/Approved References as of 20261026/` (51 files, SHA-256 verified). Established `Gypsa Proposed Final References.md` as the working progress, decision, and provenance record, superseding the earlier typo'd `Propsed` filename. It defines the end goal — a self-contained set of mutually consistent documents and raster images that produce consistent, fully canon Gypsa renders — and the sequence to get there (archive → draft the consolidated docs → review for consistency → produce the canon head, then the remaining reference sheets → website artwork).
+
+Drafted the initial v0.1 set of five consolidated, renderer-facing specifications in `Approved Reference/`, each with a single owner for every fact:
+
+1. **START HERE — Gypsa Reference Guide** — identity, document ownership, image registry, use/validation, and a render-request template.
+2. **Gypsa Head and Expression** — skull, muzzle, jaw, eyes, brows, ears, crown, and the eight expressions.
+3. **Gypsa Body and Tail** — one proportion system, body/limb measurements, hand and foot construction, and tail.
+4. **Gypsa Equipment** — backpack, bandana, and walking stick: shape, scale, attachment, materials, carry states.
+5. **Gypsa Rendering Standard** — palette, flat-color finish, outline calibration, transparency, small-size treatment, and exports.
+
+These documents are **drafts pending review**, not final approval; no legacy image is auto-promoted, and final canon image production has not started. Open questions (outline calibration, exact ear landmarks, crown appearance validation, muzzle authority vs. numeric measurements, tail root direction, complete color map, and remaining equipment detail choices) are tracked in the proposed-final-references document. Website imports pointing at the archived files are expected to break during this transition; updating them is handled separately.
