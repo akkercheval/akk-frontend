@@ -4,6 +4,40 @@
   margin-top: -0.25rem;
 }
 
+/* ── Melda character intro ──────────────────────────────── */
+.lotro-intro {
+  margin-bottom: 1.4rem;
+}
+
+.lotro-mascot {
+  width: clamp(160px, 22vw, 260px);
+  height: auto;
+  float: left;
+  margin: 0 1.5rem 1rem 0;
+  flex-shrink: 0;
+}
+
+.lotro-intro p {
+  margin-bottom: 0.8rem;
+  color: var(--color-text-light);
+}
+
+/* Clearfix so the nav grid starts below the floated image */
+.lotro-intro::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@media (max-width: 599px) {
+  .lotro-mascot {
+    float: none;
+    display: block;
+    margin: 0 auto 1.2rem;
+    width: clamp(130px, 50vw, 200px);
+  }
+}
+
 .lotro-nav-links {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));

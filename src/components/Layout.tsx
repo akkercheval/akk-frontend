@@ -34,8 +34,8 @@ export default function Layout() {
         <div className="header-content">
           <div className="header-left">
             <img
-              src="/images/first-gypsa-mascot.png"
-              alt="Gypsa the squirrel mascot"
+              src="/icons/acorn-transparent-background.png"
+              alt="Acorn icon"
               className="mascot"
             />
             <div className="title-block">

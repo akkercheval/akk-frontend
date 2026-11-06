@@ -1,5 +1,5 @@
 .welcome-section {
-  max-width: 700px;
+  max-width: 780px;
   background: rgba(253, 248, 240, 0.92);
   backdrop-filter: blur(4px);
   border-radius: 12px;
@@ -8,24 +8,35 @@
   margin-top: 2rem;
 }
 
-.welcome-greeting {
+/* ── Character + heading row ───────────────────────────── */
+.welcome-hero {
   display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1.2rem;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1.4rem;
 }
 
 .welcome-mascot {
-  width: 64px;
-  height: 64px;
+  /* Fluid: 140px on mobile, up to 220px on desktop */
+  width: clamp(130px, 22vw, 220px);
+  height: auto;
   flex-shrink: 0;
+  /* Sit on the same baseline as the text block */
+  align-self: flex-start;
+  /* Slight lift so the rock base feels grounded */
+  margin-bottom: -0.5rem;
+}
+
+.welcome-text {
+  flex: 1;
+  min-width: 0;
 }
 
 .welcome-section h2 {
   font-family: var(--font-heading);
   color: var(--color-bark);
   font-size: 1.6rem;
-  margin-bottom: 0;
+  margin-bottom: 0.6rem;
 }
 
 .welcome-section p {
@@ -49,20 +60,47 @@
   font-weight: 500;
 }
 
-@media (min-width: 769px) {
-  .welcome-section {
-    max-width: 780px;
+/* ── Responsive ─────────────────────────────────────────── */
+
+/* Tablet and up: Gypsa floats to the right of all intro text */
+@media (min-width: 600px) {
+  .welcome-hero {
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+
+  .welcome-mascot {
+    /* Float Gypsa to the right; text wraps around her */
+    float: right;
+    margin: 0 0 0.5rem 1.5rem;
+    width: clamp(150px, 20vw, 220px);
+  }
+
+  /* Let the text flow past the floated image */
+  .welcome-hero {
+    display: block;
   }
 }
 
-@media (max-width: 600px) {
+/* Small mobile: stack image above text, centered */
+@media (max-width: 599px) {
   .welcome-section {
     padding: 1.5rem;
     margin-top: 1rem;
   }
 
+  .welcome-hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
   .welcome-mascot {
-    width: 48px;
-    height: 48px;
+    width: clamp(120px, 45vw, 180px);
+  }
+
+  .welcome-invite {
+    text-align: left;
   }
 }

@@ -1,0 +1,60 @@
+.blog-header {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5rem;
+  background: rgba(253, 248, 240, 0.92);
+  backdrop-filter: blur(4px);
+  border-radius: 12px;
+  padding: 1.8rem 2rem;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  margin-bottom: 1.5rem;
+}
+
+.blog-mascot {
+  width: clamp(130px, 20vw, 220px);
+  height: auto;
+  flex-shrink: 0;
+  /* Pull image down slightly so it feels seated at the bottom of the card */
+  align-self: flex-end;
+  margin-bottom: -1.8rem;
+}
+
+.blog-header-text {
+  flex: 1;
+  min-width: 0;
+  padding-bottom: 0.25rem;
+}
+
+.blog-header-text h2 {
+  font-family: var(--font-heading);
+  color: var(--color-bark);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.blog-header-text p {
+  color: var(--color-text-light);
+  margin-bottom: 0;
+  font-size: 0.97rem;
+}
+
+/* ── Responsive ─────────────────────────────────────────── */
+@media (max-width: 599px) {
+  .blog-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    gap: 1rem;
+  }
+
+  .blog-mascot {
+    width: clamp(110px, 45vw, 170px);
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+  .blog-header-text p {
+    text-align: left;
+  }
+}

@@ -1,0 +1,69 @@
+.about-section {
+  max-width: 780px;
+}
+
+/* ── Character intro panel ──────────────────────────────── */
+.about-intro {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 1.6rem;
+}
+
+.about-mascot {
+  width: clamp(120px, 18vw, 190px);
+  height: auto;
+  flex-shrink: 0;
+  align-self: flex-start;
+}
+
+.about-intro-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.about-intro-text p {
+  margin-bottom: 0.8rem;
+  color: var(--color-text-light);
+}
+
+/* ── Content below the intro ────────────────────────────── */
+.about-section h3 {
+  font-family: var(--font-heading);
+  color: var(--color-bark);
+  font-size: 1.15rem;
+  margin: 1.2rem 0 0.5rem;
+}
+
+/* ── Responsive ─────────────────────────────────────────── */
+
+/* Tablet and up: Gypsa floats right alongside the intro text */
+@media (min-width: 600px) {
+  .about-mascot {
+    float: right;
+    margin: 0 0 1rem 1.5rem;
+    width: clamp(140px, 18vw, 190px);
+  }
+
+  .about-intro {
+    display: block;
+  }
+}
+
+/* Mobile: stack image above text, centered */
+@media (max-width: 599px) {
+  .about-intro {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .about-mascot {
+    width: clamp(110px, 42vw, 160px);
+  }
+
+  .about-intro-text p {
+    text-align: left;
+  }
+}

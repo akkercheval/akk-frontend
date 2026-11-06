@@ -55,14 +55,33 @@ export default function Lotro() {
   return (
     <section className="page-card">
       <h2>The Lord of the Rings Online</h2>
-      <p>
-        Adventures in Middle-earth — written guides, stories, and blogging from
-        Melda&rsquo;s hillside in the Friendly Forest.
-      </p>
-
-      <p>In LotRO, I am Amandakay, Elweenia, Melda, and many others across multiple servers.  I began playing LotRO in January of 2007.  My main raiding characters have lived on Elendilmir, Arkenstone, and finally Glamdring.</p>  
-      <p>I have been a member of many different and different kinds of kinships over the years, and have been fortunate to play with a solid variety of players and playstyles.</p>  
-      <p>I've defeated every boss, cleared every instance, and yet after nearly 20 years, still have plenty to learn about LotRO and Middle Earth.  Welcome to my adventures in Middle Earth!</p>
+      <div className="lotro-intro">
+        <img
+          src="/images/melda-interim-welcome-sitting.png"
+          alt="Melda the squirrel sitting on a wooden bench, smiling a warm welcome"
+          className="lotro-mascot"
+        />
+        <p>
+          Adventures in Middle-earth — written guides, stories, and blogging
+          from Melda's hillside in the Friendly Forest.
+        </p>
+        <p>
+          In LotRO, I am Amandakay, Elweenia, Melda, and many others across
+          multiple servers. I began playing LotRO in January of 2007. My main
+          raiding characters have lived on Elendilmir, Arkenstone, and finally
+          Glamdring.
+        </p>
+        <p>
+          I have been a member of many different kinships over the years, and
+          have been fortunate to play with a solid variety of players and
+          playstyles.
+        </p>
+        <p>
+          I've defeated every boss, cleared every instance, and yet after
+          nearly 20 years, still have plenty to learn about LotRO and
+          Middle-earth. Welcome to my adventures!
+        </p>
+      </div>
 
       <div className="lotro-nav-links">
         {sections.map((section) => (
