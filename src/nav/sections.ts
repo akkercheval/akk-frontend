@@ -42,6 +42,14 @@ export interface Section {
 // Section definitions
 // ----------------------------------------------------------------------------
 
+const ABOUT: Section = {
+  to: '/about',
+  label: 'About',
+  children: [
+    { to: '/about/resume', label: 'Resume' },
+  ],
+}
+
 const LOTRO: Section = {
   to: '/lotro',
   label: 'LotRO',
@@ -125,7 +133,7 @@ const FOREST: Section = {
 }
 
 /** All sections that participate in sub-navigation. */
-export const SECTIONS: Section[] = [LOTRO, COOKIE_CUTTERS, GYPSA, FOREST]
+export const SECTIONS: Section[] = [ABOUT, LOTRO, COOKIE_CUTTERS, GYPSA, FOREST]
 
 // ----------------------------------------------------------------------------
 // Resolution helpers

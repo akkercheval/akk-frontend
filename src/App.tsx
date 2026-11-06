@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Layout from './components/Layout'
 import Home from './pages/Home'
 import About from './pages/About'
+import Resume from './pages/about/Resume'
 import WebProjects from './pages/WebProjects'
 import Crochet from './pages/Crochet'
 import Cats from './pages/Cats'
@@ -81,6 +82,7 @@ function App() {
         <Route element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path="about/resume" element={<Resume />} />
           <Route path="projects" element={<WebProjects />} />
           <Route path="crochet" element={<Crochet />} />
           <Route path="cats" element={<Cats />} />

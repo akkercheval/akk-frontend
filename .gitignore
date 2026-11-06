@@ -31,32 +31,38 @@ dist-ssr
 # Character design / SVG rendering assets.
 # NOTE: src/ imports SOME of these at build time via Vite (?raw / ?url), so
 # those specific files MUST be committed or the production build fails.
-# We ignore the bulky reference material but un-ignore what the build needs.
+# We ignore the bulky reference material but keep what the build needs.
 # ---------------------------------------------------------------------------
 
 # melda / style-guide are not imported by src -> keep fully ignored.
 melda/
 style-guide/
 
-# gypsa: ignore everything, then re-include only the files src/ imports.
-gypsa/*
-!gypsa/Milestones.md
+# ---------------------------------------------------------------------------
+# gypsa/
+#
+# Rules:
+#   - gypsa/ root: track everything (only a handful of files live here)
+#   - gypsa/Approved Reference/: track everything (current canon docs + images)
+#   - Everything else (subdirectories, working renders, exploration material)
+#     is ignored EXCEPT the specific files imported by the build.
+# ---------------------------------------------------------------------------
 
-# --- New Approved Reference docs (current canon, imported by doc pages) ---
-!gypsa/Approved Reference/
-gypsa/Approved Reference/*
-!gypsa/Approved Reference/START HERE — Gypsa Reference Guide.md
-!gypsa/Approved Reference/Gypsa Head and Expression.md
-!gypsa/Approved Reference/Gypsa Body and Tail.md
-!gypsa/Approved Reference/Gypsa Equipment.md
-!gypsa/Approved Reference/Gypsa Rendering Standard.md
+# Ignore all subdirectories by default.
+gypsa/Exploration/
+gypsa/Older Reference Revisions/
+gypsa/Rendering/
+gypsa/Original ChatGPT renders/
+gypsa/Rejected Drawings/
+gypsa/output/
+gypsa/tools/
 
-# --- Root gypsa/ images imported by EvolutionOfGypsa ---
-!gypsa/EasternGraySquirrel_GAm.jpg
-!gypsa/Gypsa Squirrel v1.png
+# --- Root gypsa/ images imported by EvolutionOfGypsa (already tracked; listed
+#     here for clarity — no explicit un-ignore needed since root is not ignored)
 
-# --- Exploration subfolders imported by EvolutionOfGypsa ---
+# --- Exploration images imported by EvolutionOfGypsa ---
 !gypsa/Exploration/
+gypsa/Exploration/**
 !gypsa/Exploration/Head/
 !gypsa/Exploration/Head/Head Design Exploration - Phase 1.png
 !gypsa/Exploration/Eyes/
@@ -66,18 +72,19 @@ gypsa/Approved Reference/*
 
 # --- Archived reference images imported by EvolutionOfGypsa ---
 !gypsa/Older Reference Revisions/
+gypsa/Older Reference Revisions/**
 !gypsa/Older Reference Revisions/Approved References as of 20261026/
-!gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Canonical Muzzle.png
-!gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Canonical Ear.png
-!gypsa/Older Reference Revisions/Approved References as of 20261026/gypsa_upright_reference.svg
-!gypsa/Older Reference Revisions/Approved References as of 20261026/canonical-body-dummy-v2.0-profile.svg
-!gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Canonical Neutral Tail Reference.png
-!gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Tail Validation Three Views.png
 !gypsa/Older Reference Revisions/Approved References as of 20261026/Canonical Backpack Reference.png
+!gypsa/Older Reference Revisions/Approved References as of 20261026/canonical-body-dummy-v2.0-profile.svg
+!gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Canonical Ear.png
+!gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Canonical Muzzle.png
+!gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Canonical Neutral Tail Reference.png
 !gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Canonical Walking Stick Reference.png
-!gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Provisional Full Body Front Pose.png
-!gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Provisional Full Body Back Pose.png
 !gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Character Sheet v2.0.png
+!gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Provisional Full Body Back Pose.png
+!gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Provisional Full Body Front Pose.png
+!gypsa/Older Reference Revisions/Approved References as of 20261026/Gypsa Tail Validation Three Views.png
+!gypsa/Older Reference Revisions/Approved References as of 20261026/gypsa_upright_reference.svg
 
 # forest/ is small and its markdown is imported by src -> keep it in the repo.
 # (no ignore rule for forest/)
@@ -88,3 +95,4 @@ gypsa/Approved Reference/*
 /*.md
 !/Friendly Forest Locations.md
 !/friendly-forest-principles.md
+.agents

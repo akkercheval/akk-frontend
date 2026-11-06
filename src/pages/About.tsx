@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './About.css'
 
 export default function About() {
@@ -31,6 +32,12 @@ export default function About() {
         <li>State &amp; National Parks camping</li>
         <li>Crochet</li>
       </ul>
+
+      <h3>Professional</h3>
+      <p className="about-resume-link-text">
+        Nearly 10 years of full-stack software engineering experience in Java, C#, Angular, and TypeScript.{' '}
+        <Link to="/about/resume">View my resume →</Link>
+      </p>
     </section>
   )
 }
