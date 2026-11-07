@@ -71,7 +71,6 @@ const LOTRO: Section = {
         },
       ],
     },
-    { to: '/lotro/instances', label: 'Instances' },
     { to: '/lotro/new-player', label: 'New Player' },
     { to: '/lotro/classes', label: 'Classes' },
     { to: '/lotro/festivals', label: 'Festivals' },

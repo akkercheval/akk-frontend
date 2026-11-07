@@ -44,7 +44,6 @@ import WolvesDauntlessCommander from './pages/lotro/WolvesDauntlessCommander'
 import WolvesMountsWarSteeds from './pages/lotro/WolvesMountsWarSteeds'
 import WolvesDauntlessWarSteed from './pages/lotro/WolvesDauntlessWarSteed'
 import WolvesWereWolfWarSteed from './pages/lotro/WolvesWereWolfWarSteed'
-import LotroInstances from './pages/lotro/Instances'
 import LotroNewPlayer from './pages/lotro/NewPlayer'
 import LotroClasses from './pages/lotro/Classes'
 import LotroClassesOverview from './pages/lotro/classes/Overview'
@@ -111,7 +110,6 @@ function App() {
           <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide/mounts-and-war-steeds" element={<WolvesMountsWarSteeds />} />
           <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide/dauntless-commander-war-steed" element={<WolvesDauntlessWarSteed />} />
           <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide/were-wolf-hunters-war-steed" element={<WolvesWereWolfWarSteed />} />
-          <Route path="lotro/instances" element={<LotroInstances />} />
           <Route path="lotro/new-player" element={<LotroNewPlayer />} />
           <Route path="lotro/classes" element={<LotroClasses />} />
           <Route path="lotro/classes/overview" element={<LotroClassesOverview />} />

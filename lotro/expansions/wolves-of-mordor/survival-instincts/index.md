@@ -3,10 +3,8 @@
 # Survival Instincts — A Player&rsquo;s Guide
 
 > An unofficial, player-made companion to the **Survival Instincts** system
-> introduced with _The Wolves of Mordor_. This page starts from the in-game
-> welcome letter every character received at launch on **Wednesday, October 28,
-> 2026**, then walks through the new Trait Tree Panel and the skills each group
-> shares. It will keep growing as I explore the new content.
+> introduced with _The Wolves of Mordor_ which launched on **Wednesday, October 28,
+> 2026**. This page is intended to help players get started with this new system and will keep growing as I explore the new content.
 
 ## Getting Started  
 <img src="/images/LotRO/wolves-of-mordor/orthonn-minas-tirith-midsummer.png" alt="Orthonn, near the stables in Minas Tirith, Midsummer" style="float: right; max-width: 40%; margin: 0 0 0.75rem 1rem;">The best way to get started with **Survival Instincts** is to begin the new epic story, "...And the Verses of Victory."  This story begins in Minas Tirith, Midsummer.  You can swift travel from any of the housing area stable masters, as well as most major cities like Bree and Thorin's Gate.  Speak to Orthonn near the stables (22.4N, 53.7W) and begin *1.1: A Storm in Late Summer*.  The quest chain will teleport you to the new region of Mordor.  Work through the epic story and other quests as you encounter them.  You will gain trait points to spend as you complete quests in the area.  
