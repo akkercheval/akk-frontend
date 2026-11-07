@@ -103,14 +103,14 @@ Decided to pause further work on full svg models.  Structural References are con
 
 ## Upcoming  
 ### Next  
-✓ Canon Line Weight determined — **2.35% of head height** (`#1E1E1E`, exploration candidate R2b-2), ratified 2026-09-16. Owned project-wide by the [Line Weight Standard](../../style-guide/line-weight/line-weight-standard.md) (exploration under `style-guide/line-weight/exploration/`). Gypsa was the exploration subject; the value applies to all characters and non-background images.  
+✓ Canon Line Weight determined — **2.35% of head height** (`#1E1E1E`, exploration candidate R2b-2), ratified 2026-09-16. Owned project-wide by the Line Weight Standard (exploration under `style-guide/line-weight/exploration/`) and restated for Gypsa in the [Rendering Standard](/gypsa/rendering-standard), which now defines the calibration span (ear tips through bottom of neck/shoulder). Gypsa was the exploration subject; the value applies to all characters and non-background images.  
 ? Begin creating full canon png images of Gypsa.  
 
 ### Deferred Validation  
 - Validate Gypsa's muzzle size/shape in context  
 - Expression neutrality test (does the muzzle accept different expressions without fighting them?)  
 - Context validation (Gypsa placed next to website headings, paragraphs, navigation)  
-- ✓ Line weight decision — **resolved** (2.35% of head height, R2b-2). Owned project-wide by the [Line Weight Standard](../../style-guide/line-weight/line-weight-standard.md), not the Production Guide. Ready for final SVG work. 
+- ✓ Line weight decision — **resolved** (2.35% of head height, R2b-2). Owned project-wide by the Line Weight Standard and restated in the [Rendering Standard](/gypsa/rendering-standard), not the Production Guide. Ready for final SVG work. 
 - Validate Gypsa's neutral tail in 3/4 and front views  
 - Validate Gypsa's Thinking, Inquisitive, and Puzzled tail expressions   
 
@@ -118,7 +118,7 @@ Decided to pause further work on full svg models.  Structural References are con
 - Muzzle profile projection — may appear slightly shorter/flatter in profile. Largely resolved but watch for it during body integration views.  
 - Ear root placement in 3/4 and profile — ears had a tendency to drift upward/backward. Partially addressed after extensive work. Accept current state and adjust if needed in context.  
 - Ear **forward-turn** — in full-body renders the ears repeatedly rotate/lean too far forward over the face instead of sitting low on the sides of the skull rising up and slightly outward. **Resolved in practice** in the back-pose render; keep calling it out explicitly in every full-body prompt and validate against `Gypsa Canonical Ear.png`.  
-- Forehead/crown fur — **design clarified 2026-10-09** in `Gypsa Crown Fur Specification.md` v1.0: rear-centered origin, front-view clockwise sweep initially toward Gypsa's left, centered tip at neutral eye-top / center-side lash midpoint. Existing images are supporting appearance references only; annotated landmark construction and new cross-view validation remain pending. Older rotation sheet does not establish compliance with these new rules.  
+- Forehead/crown fur — **design consolidated into [Head and Expression](/gypsa/head-and-expression)** (the 2026-10-09 Crown Fur Specification v1.0 is archived). The crown origin is now just behind Gypsa's anatomical left ear, and the earlier tip-landmark formula (centered tip at the eye-top / center-side lash midpoint) was dropped in favor of a restrained soft curl that stays out of the space between the eyes. Existing images are supporting appearance references only; annotated landmark construction and new cross-view validation remain pending. Older rotation sheet does not establish compliance with these new rules.  
 - Gypsa's tail fur direction.  The renderer tends to switch fur direction for some tail centerline shapes.  
 
 ### Future Work  

@@ -78,4 +78,4 @@ Unresolved decisions relevant to this request:
 
 ## Review boundary
 
-Open decisions and development sources are tracked in [Gypsa Proposed Final References](../Gypsa%20Proposed%20Final%20References.md), outside the renderer packet. Outline calibration remains unresolved. Exact ear landmarks, complete crown validation, final paw outlines, and front tail-envelope validation remain outstanding. Do not silently invent their final values.
+Open decisions and development sources are tracked in [Gypsa Proposed Final References](../Gypsa%20Proposed%20Final%20References.md), outside the renderer packet. Outline weight is canon (2.35% of the calibration span; see Rendering Standard). Exact ear landmarks, complete crown validation, final paw outlines, and front tail-envelope validation remain outstanding. Do not silently invent their final values.

@@ -5,7 +5,7 @@ Head appearance belongs to [Head and Expression](Gypsa%20Head%20and%20Expression
 
 ## Unit and construction
 
-**1H = chin-to-cranial-top head height, excluding ears and projecting crown fur.** This structural unit is distinct from the unresolved outline calibration span. Use anatomical left/right, not canvas left/right, except where an explicit camera convention is stated.
+**1H = chin-to-cranial-top head height, excluding ears and projecting crown fur.** This structural unit is distinct from the outline calibration span (ear tips through bottom of neck/shoulder; see Rendering Standard). Use anatomical left/right, not canvas left/right, except where an explicit camera convention is stated.
 
 Gypsa has a soft compact young-adult build, a pear-shaped torso, substantial neck, narrow shoulders, rounded haunches, and elongated squirrel feet. The surface follows the rig; moving landmarks to rescue an incorrect outline is not validation.
 

@@ -1,6 +1,6 @@
 # Gypsa Rendering Standard
 
-**Version 0.9 — adds a retired-tokens table (do not reuse #E7B37A, #111111, banded irises, 0.24H finger, pale tail stripes), a provisional measured below-eye clearance range (≈0.10–0.20 of eye-opening height), and provisional user outline direction (primary outlines near-final, interior detail outlines may reduce). Inner ears share the canonical warm-fur brown #B97A3D (2026-10-30). #533923 solid irises, black pupils, canonical filled brows and lashes, and continuous gray clearance below both eyes remain recorded. Eyebrow outlines remain 75% and fur-transition outlines 40% of standard thickness. Remaining marking boundaries and overall outline calibration remain under review.**
+**Version 0.10 — adds a retired-tokens table (do not reuse #E7B37A, #111111, banded irises, 0.24H finger, pale tail stripes), a provisional measured below-eye clearance range (≈0.10–0.20 of eye-opening height), and a canonical outline weight: 2.35% of the calibration span (ear tips through bottom of neck/shoulder), confirmed by the user 2026-10-31. Inner ears share the canonical warm-fur brown #B97A3D (2026-10-30). #533923 solid irises, black pupils, canonical filled brows and lashes, and continuous gray clearance below both eyes remain recorded. Eyebrow outlines remain 75% and fur-transition outlines 40% of standard thickness. Remaining marking boundaries and shadow tones remain under review.**
 This document owns finish, palette, transparency, and export. Shape and anatomy belong to the other four documents. A correct finish does not certify correct anatomy.
 
 ## Foreground style
@@ -9,9 +9,9 @@ Warm, clean, handcrafted character illustration with rounded forms, flat fills, 
 
 Use rounded joins/caps where appropriate. Body fur has purposeful, gentle contour breaks rather than repetitive sawteeth. Tail fur remains longer and more directional than body fur; do not turn its Soft Stylized B envelope into a smooth plush tube. Brows use cohesive fills with soft bushy outlines, following Head and Expression; the old stroke-only finish is superseded. Fur contour language does not authorize changing anatomical volume.
 
-**Canonical eyebrow outline:** use the standard dark outline color #1E1E1E at approximately **75% of the standard head/crown outline thickness** (25% thinner). Place the full stroke inside the brow's outer boundary, replacing the edge of the brown fill so the outlined brow retains its original overall size, contour, and position. Trace upper and lower edges, preserving soft fur tufts. This establishes a relative weight only; it does not resolve the pending absolute outline calibration below. For edits to existing artwork, use that artwork's standard head/crown outline as the comparison.
+**Canonical eyebrow outline:** use the standard dark outline color #1E1E1E at approximately **75% of the standard head/crown outline thickness** (25% thinner). Place the full stroke inside the brow's outer boundary, replacing the edge of the brown fill so the outlined brow retains its original overall size, contour, and position. Trace upper and lower edges, preserving soft fur tufts. This is a relative weight: 75% of the canonical primary outline defined in Outline weight — canon below. For edits to existing artwork, use that artwork's standard head/crown outline as the comparison.
 
-**Canonical brown-gray fur-transition outline:** use #1E1E1E at approximately **40% of the standard head/crown outline thickness** along the transition between reddish-brown and gray fur, following the marking boundary and its fur tufts. Preserve the underlying anatomy and continuous muzzle/cheek volume; do not double existing anatomical lines. Around the muzzle-to-face transition, maintain a small, clearly visible strip of gray fur between this transition outline and each eye outline, including the far eye and eye corners. The two lines must never touch or merge. Adjust the local color boundary as needed for clearance without moving the eyes or changing muzzle volume. Check the gap at intended display size. This relative thickness is accepted; absolute outline calibration remains pending.
+**Canonical brown-gray fur-transition outline:** use #1E1E1E at approximately **40% of the standard head/crown outline thickness** along the transition between reddish-brown and gray fur, following the marking boundary and its fur tufts. Preserve the underlying anatomy and continuous muzzle/cheek volume; do not double existing anatomical lines. Around the muzzle-to-face transition, maintain a small, clearly visible strip of gray fur between this transition outline and each eye outline, including the far eye and eye corners. The two lines must never touch or merge. Adjust the local color boundary as needed for clearance without moving the eyes or changing muzzle volume. Check the gap at intended display size. This relative thickness is accepted: 40% of the canonical primary outline defined in Outline weight — canon below.
 
 **Accepted shadow treatment:** use restrained, discrete flat shadow shapes where appropriate across Gypsa and her equipment. Shadows may clarify form and overlap, including upper-sweep shadow on lower tail portions where lighting supports it. Preserve flat base colors and clean boundaries; no gradients or airbrushed shading. Tail silhouette, volume, and overlap must remain readable without relying on shading. Shadow tones and lighting convention still require palette validation; shadows are not permanent fur markings.
 
@@ -72,28 +72,38 @@ No new orange palms/feet or unrequested clothing patterns. Color must not be use
 
 Place the reddish-brown accent on the anatomical underside of the tail, following the same surface continuously through its curves and rotations. “Underside” is not automatically the bottom edge of the image, the camera-facing surface, or whichever region is in shadow. Keep the remaining tail gray. Validate the accent's width, boundaries, and visibility on the final tail construction; do not introduce light-gray streaks or alternating bands. The underside marking and cast-shadow shapes are separate features.
 
-## Outline calibration — discussion required
+## Outline weight — canon
 
-The historical project rule is **2.35% of “head height.”** Two different spans occur in the documentation:
+**The canonical primary outline is 2.35% of the subject's calibration head height, drawn in #1E1E1E.** This is the ratified Friendly Forest line weight (candidate R2b-2, ratified 2026-09-16) and the user confirmed on 2026-10-31 that it is fully canon for Gypsa, except where this document explicitly supersedes it (the relative brow and fur-transition weights above).
 
-| Definition | Span | Current status |
-| --- | --- | --- |
-| Structural H | Chin to cranial top, excluding ears/crown fur | Defined for anatomy in Body and Tail |
-| Historical line-calibration span | Ear tips through bottom of neck/shoulder in calibration artwork | Defined in the existing project-wide standard; not equivalent to H |
+**Calibration head height** is the span the standard was ratified against: from the **top of the ears through the bottom of the neck/shoulder** in a head-and-shoulders drawing. It is **not** structural H (chin to cranial top, excluding ears and crown fur, defined in Body and Tail). Do not compute outline weight as 2.35% of structural H; the two spans differ, and the ratio was calibrated on the ear-tip-to-neck span.
 
-The user explicitly requests direct analysis before deciding which interpretation should govern. **This draft does not choose the denominator, change the percentage, or certify a line weight.** The existing project-wide standard remains unchanged outside this packet; reconciling it is an outstanding documentation milestone, not something the renderer should decide.
+**To apply it:**
 
-**User direction (2026-10-31), provisional:** on the provisional head, the **primary silhouette outlines are likely at or near their intended weight** and should not be thickened. The **interior detail outlines may be reduced slightly** (lighter interior fur/feature lines) in a later pass. This is directional intent, not a settled calibration: it does not fix an absolute weight, choose the denominator, or change the 75% brow / 40% fur-transition relative weights. Confirm against the R1 turnaround before locking.
+1. Measure the calibration span in the final render.
+2. Primary outline width = calibration span × 0.0235 (equivalently, span ÷ 42.6).
+3. Use #1E1E1E with consistent line caps and joins, rounded where appropriate.
 
-Proposed comparison process:
+| Calibration span | Primary outline width |
+| --- | --- |
+| 200 px | ≈ 4.7 px |
+| 400 px | ≈ 9.4 px |
+| 600 px | ≈ 14.1 px |
+| 1000 px | ≈ 23.5 px |
 
-1. Use one unchanged large drawing. Annotate both spans and actual outline widths.
-2. Compare the two candidate applications of the historical ratio on identical geometry, palette, and framing.
-3. Inspect large and at 48–64 px against both cream cards and forest backgrounds.
-4. Record the user's decision, a reproducible measurement definition, and calibration drawing. Specify whether ear rotation affects calibration or whether the approved neutral span remains the reference.
-5. Update this document and the project-wide standard together when authorized.
+**Scope and related weights:**
 
-Until then, retain a working image's outline during geometry-only edits. Do not introduce arbitrary thickening or thinning as a second change. Props should share the character's eventual on-screen outline treatment; technical construction guides and delicate brow details need not become heavy silhouette strokes.
+- The primary outline (silhouette and major structural contours) uses the full 2.35% weight. Eyebrow outlines (75%) and brown-gray fur-transition outlines (40%) are fixed fractions of this weight, as specified earlier in this document.
+- Props with no head (backpack, stick, acorn cutter) take the outline width that matches Gypsa's primary outline at the same on-screen size, so all foreground art shares one line weight.
+- The user is considering a slight reduction of **interior detail** lines (interior fur and feature lines) on the provisional head. That is not canon. Until the user decides, interior detail lines keep their current treatment; do not thin them on your own.
+- Background and environment art is not governed by this weight.
+
+**Measuring and editing:**
+
+- Author and validate line weight on renders where the calibration span is at least 400 px. Small outputs (header and Home slots) are downscaled from a large master; if a detail chokes at small size, convert it to a filled or negative-space shape instead of thinning the stroke locally.
+- The original raster calibration measured somewhat thinner in absolute pixels than 2.35% (generation undershot the printed percentages). The **2.35% ratio is the canon**, not any one render's measured width. Pin an exact stroke width only if a locked source SVG is ever produced.
+- During geometry-only edits, retain the working image's existing outline. Do not thicken or thin it as a second change.
+- A newer render never supersedes this weight merely because it is newer. Revising it requires a fresh exploration round, measurement on a large render, a recorded rationale, and a simultaneous update of this document and the project-wide Line Weight Standard.
 
 ## Transparency and file format
 
@@ -107,7 +117,7 @@ Reference sheets may use a simple neutral backing to make annotations legible, b
 
 ## Scale and exports
 
-- Work from a sufficiently large master to inspect facial construction and linework; the legacy calibration practice used at least a 400-pixel head/calibration span. Exact line calibration remains open above.
+- Work from a sufficiently large master to inspect facial construction and linework; validate outline weight on renders where the calibration span is at least 400 px (see Outline weight — canon).
 - Give ears, tail, hands, feet, and stick room in the framing. Do not force a full figure into a square by distorting it.
 - Preserve a transparent PNG master; derive display-sized files from it. Record dimensions, crop, and intended use.
 - For the current 48–64 px header/Home slots, favor a readable portrait/bust. Test at actual size, not just enlarged.
@@ -121,9 +131,9 @@ Reference sheets may use a simple neutral backing to make annotations legible, b
 - [ ] Tail volume and taper are preserved through projection and occlusion.
 - [ ] Equipment scale, attachments, held/stowed state, and visible details agree.
 - [ ] Palette and color placement are verified; unresolved tokens have not been silently invented.
-- [ ] Flat finish; outline calibration approved and measured before claiming a final finish pass.
+- [ ] Flat finish; primary outline measured at 2.35% of the calibration span before claiming a final finish pass.
 - [ ] Transparent alpha and edge quality verified; no baked checkerboard.
 - [ ] Composition, dimensions, and actual display-size readability checked.
 - [ ] Single-feature edits checked for collateral change, with sources and decision recorded outside the packet.
 
-This draft cannot receive final approval while its outline and color-map questions remain unresolved.
+This draft cannot receive final approval while its color-map questions (marking boundaries, shadow tones) remain unresolved.

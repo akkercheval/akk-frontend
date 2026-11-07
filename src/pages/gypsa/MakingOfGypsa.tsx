@@ -65,10 +65,6 @@ export default function MakingOfGypsa() {
               <strong>Character Bible</strong>
               <span>Who Gypsa is — personality, backstory, and core identity</span>
             </Link>
-            <Link to="/gypsa/head-construction" className="gypsa-nav-card">
-              <strong>Head Construction Guide</strong>
-              <span>Canonical head construction reference</span>
-            </Link>
             <Link to="/gypsa/body-dummy" className="gypsa-nav-card">
               <strong>Body Dummy (v2.0)</strong>
               <span>Canonical body dummy specification</span>

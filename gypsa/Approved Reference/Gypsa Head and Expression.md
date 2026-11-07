@@ -82,7 +82,7 @@ In profile, the front attachment is near/just above the eye line; the rear attac
 
 ## Crown: Soft Layered Sweep
 
-The crown is naturally longer squirrel fur forming one broad, softly layered sweep with a natural curl. It originates **just behind Gypsa's anatomical left ear** and flows across the crown toward the forehead, turning gently downward and inward at its longest front end. In the current left-facing three-quarter view, this origin is behind the near ear at image-right. Keep the origin attached to the same anatomical side through camera changes; do not mirror the character or relocate the origin to suit the composition.
+The crown is naturally longer squirrel fur forming one broad, softly layered sweep with a natural curl. It is part of her coat, not a wig or separate human hair. It originates **just behind Gypsa's anatomical left ear** and flows across the crown toward the forehead, turning gently downward and inward at its longest front end. In the current left-facing three-quarter view, this origin is behind the near ear at image-right. Keep the origin attached to the same anatomical side through camera changes; do not mirror the character or relocate the origin to suit the composition.
 
 Use broad overlapping fur groups with rounded bodies and gently tapered ends. Their contours should join into a relatively smooth overall sweep. The groups nearest the left ear must be long enough to blend into the main mass, rather than forming a row of short upright spikes. Subordinate internal lines describe that shared flow; they must not divide the crown into many narrow, disconnected locks. Blend the rear into ordinary coat without a separate hairline or abrupt drop.
 

@@ -52,11 +52,6 @@ const groups: DocGroup[] = [
         blurb: 'Who Gypsa is — personality, backstory, and core identity.',
       },
       {
-        to: '/gypsa/head-construction',
-        title: 'Head Construction Guide',
-        blurb: 'Canonical head construction reference.',
-      },
-      {
         to: '/gypsa/body-dummy',
         title: 'Body Dummy (v2.0)',
         blurb: 'Canonical body dummy specification.',

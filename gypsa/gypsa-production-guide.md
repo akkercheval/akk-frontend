@@ -128,14 +128,16 @@ gypsa
 
 ## Line Weight
 
-**Canon (ratified 2026-09-16):** the canonical outline is **2.35% of head
-height**, in outline color `#1E1E1E`. Gypsa carries this weight everywhere.
+**Canon (ratified 2026-09-16, reconfirmed 2026-10-31):** the canonical outline is **2.35% of head
+height**, in outline color `#1E1E1E`. Gypsa carries this weight everywhere. "Head
+height" here means the calibration span (ear tips through bottom of neck/shoulder),
+not the structural 1H. See [Rendering Standard](/gypsa/rendering-standard) for how
+to apply it and for the related eyebrow (75%) and fur-transition (40%) weights.
 
 This is a **project-wide** standard, not a Gypsa-only decision — it applies to
-all characters and all non-character foreground art. The authority is the
-[Line Weight Standard](../../style-guide/line-weight/line-weight-standard.md);
-Gypsa was the exploration subject. If this section and the standard ever
-disagree, the standard wins.
+all characters and all non-character foreground art. The project-wide Line Weight
+Standard remains the original authority; Gypsa was the exploration subject. If this
+section and the standard ever disagree, the standard wins.
 
 - Author and validate at a large render (head ≥ 400 px, outline ≈ 9–10 px).
 - Small uses (favicon/avatar) are downscaled from a large master, never
@@ -189,7 +191,7 @@ An emergent characteristic should:
 | Ears | Approved |
 | Eyes | Approved |
 | Eyebrows | Approved |
-| Forehead/Crown Fur | Design canon: [Crown Fur Specification v1.0](Gypsa%20Crown%20Fur%20Specification.md); new landmark / cross-view appearance validation pending |
+| Forehead/Crown Fur | Design canon: [Head and Expression](/gypsa/head-and-expression) (Crown: Soft Layered Sweep); cross-view appearance validation pending |
 | Complete Canonical Head | Approved |
 
 **Canonical** — The current approved reference used as the foundation for future work. Canonical does not mean immutable. Changes require evidence gained through exploration and validation rather than preference alone.

@@ -40,7 +40,7 @@
 | P4 | **Faint near-side muzzle contour loop** remains near the mouth (reduced from v3). | Rendering Standard → clean contour | **Very minor** | Simplify to a single clean contour if touched again. |
 
 ### Open canon items this reference does NOT resolve (not defects — undecided in the docs)
-- **Absolute outline weight** — still OPEN per Rendering Standard → "Outline calibration — discussion required" (tracker C5). This reference uses a consistent *relative* weight only; do not read an absolute line-width standard from it.
+- **Outline weight** — now canon: 2.35% of the calibration span per Rendering Standard → "Outline weight — canon". This image's measured outline has not been checked against that ratio; measure it before final promotion. Possible slight reduction of interior detail lines is still under consideration by the user and is not canon.
 - **Exact below-eye clearance width**, **facial-marking boundary pixels**, and **shadow tones** — flagged pending in the Rendering Standard. P1 corrects a visible deficiency without inventing final pixel values.
 
 ---
