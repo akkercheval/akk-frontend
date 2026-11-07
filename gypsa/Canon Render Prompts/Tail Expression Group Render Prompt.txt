@@ -1,0 +1,18 @@
+Please refer to the attached documents and images, and then create a new image "Gypsa: Tail Expression Exploration — Group A / Neutral Fur Mapping Pass #2."  
+
+Please Use Gypsa Tail Expression Exploration Group A First Drawing Pass as a visual template for the new image.  
+The bodies and reference lines in the Group A First Drawing Pass are context only. Do not use any differences in a newly rendered body as design information. The purpose of this pass is exclusively to validate mapping of the canonical neutral fur construction onto the four accepted structural centerlines. 
+
+Please refer to Gypsa Directionally Sanitized Render Prompt, which contains detailed instructions for how to draw Gypsa's tail.  Refer to Gypsa Canonical Tail Fur Envelope, which is a visual representation of Gypsa's tail and contains notes of the literal length of the tail in the image, which is approximately double normal scale.
+
+For each Tail Expression, create a new tail whose centerline replicates the Structural Centerline in the Group A First Draw.  At every point, determine the local root→tip tangent of the expression centerline. Neutral fur projects approximately 45° from that local tangent, while always retaining a positive distal component.  
+
+Do not determine or redraw the root location from the newly generated fur silhouette. The center of the orange structural-root marker must remain exactly on the first point of the supplied accepted orange centerline. Preserve that point exactly from the Group A First Drawing Pass.
+
+Generate fur outward from the frozen centerline; never move the centerline or its root to accommodate the fur.
+
+The ±45° rule describes the underlying directional axis of each fur group, not a requirement to draw isolated triangular spikes. Preserve the fine, overlapping, soft fur treatment demonstrated by the Canonical Straight Tail Fur Envelope. Individual fur groups should overlap visually to create a continuous soft silhouette.
+
+Fur spikes may overlap neighboring fur visually when the centerline curves tightly. Do not shorten, reverse, or redirect fur merely to avoid overlap. Maintain the canonical construction measurements for this pass.
+
+Leave the orange centerlines visible.

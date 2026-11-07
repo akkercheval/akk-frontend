@@ -47,6 +47,32 @@ export default function MakingOfGypsa() {
               <strong>Design Milestones</strong>
               <span>Timeline of progress</span>
             </Link>
+            <Link to="/gypsa/project-status" className="gypsa-nav-card">
+              <strong>Project Status</strong>
+              <span>Current state of the Gypsa project</span>
+            </Link>
+            <Link to="/gypsa/production-guide" className="gypsa-nav-card">
+              <strong>Production Guide</strong>
+              <span>Production workflow and process guide</span>
+            </Link>
+          </div>
+        </section>
+
+        <section className="gypsa-section">
+          <h3>Canon Documents</h3>
+          <div className="gypsa-nav-links">
+            <Link to="/gypsa/character-bible" className="gypsa-nav-card">
+              <strong>Character Bible</strong>
+              <span>Who Gypsa is — personality, backstory, and core identity</span>
+            </Link>
+            <Link to="/gypsa/head-construction" className="gypsa-nav-card">
+              <strong>Head Construction Guide</strong>
+              <span>Canonical head construction reference</span>
+            </Link>
+            <Link to="/gypsa/body-dummy" className="gypsa-nav-card">
+              <strong>Body Dummy (v2.0)</strong>
+              <span>Canonical body dummy specification</span>
+            </Link>
           </div>
         </section>
       </div>

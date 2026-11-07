@@ -42,13 +42,14 @@ style-guide/
 # gypsa/
 #
 # Rules:
-#   - gypsa/ root: track everything (only a handful of files live here)
+#   - gypsa/ root: track everything
 #   - gypsa/Approved Reference/: track everything (current canon docs + images)
+#   - gypsa/Canon Render Prompts/: track everything (small .md/.txt files)
 #   - Everything else (subdirectories, working renders, exploration material)
 #     is ignored EXCEPT the specific files imported by the build.
 # ---------------------------------------------------------------------------
 
-# Ignore all subdirectories by default.
+# Ignore all bulk subdirectories by default.
 gypsa/Exploration/
 gypsa/Older Reference Revisions/
 gypsa/Rendering/
@@ -56,9 +57,10 @@ gypsa/Original ChatGPT renders/
 gypsa/Rejected Drawings/
 gypsa/output/
 gypsa/tools/
+gypsa/website-renders
 
-# --- Root gypsa/ images imported by EvolutionOfGypsa (already tracked; listed
-#     here for clarity — no explicit un-ignore needed since root is not ignored)
+# gypsa/Approved Reference/ and gypsa/Canon Render Prompts/ are NOT ignored
+# (no ignore rule needed — they fall through to the tracked root).
 
 # --- Exploration images imported by EvolutionOfGypsa ---
 !gypsa/Exploration/

@@ -3,7 +3,7 @@ import './MakingOfGypsa.css'
 import './EvolutionOfGypsa.css'
 
 // Beat 1 — a real squirrel and the first idea
-import realSquirrel from '../../../gypsa/EasternGraySquirrel_GAm.jpg?url'
+import realSquirrel from '../../../gypsa/Approved Reference/EasternGraySquirrel_GAm.jpg?url'
 import firstConcept from '../../../gypsa/Gypsa Squirrel v1.png?url'
 
 // Beat 2 — head and muzzle

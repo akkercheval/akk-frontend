@@ -68,12 +68,17 @@ import LotroLinks from './pages/lotro/Links'
 import MakingOfGypsa from './pages/gypsa/MakingOfGypsa'
 import EvolutionOfGypsa from './pages/gypsa/EvolutionOfGypsa'
 import Milestones from './pages/gypsa/Milestones'
+import ProjectStatus from './pages/gypsa/ProjectStatus'
+import ProductionGuide from './pages/gypsa/ProductionGuide'
 import CanonicalDesignDocs from './pages/gypsa/CanonicalDesignDocs'
 import ReferenceGuide from './pages/gypsa/ReferenceGuide'
 import HeadAndExpression from './pages/gypsa/HeadAndExpression'
 import BodyAndTail from './pages/gypsa/BodyAndTail'
 import Equipment from './pages/gypsa/Equipment'
 import RenderingStandard from './pages/gypsa/RenderingStandard'
+import CharacterBible from './pages/gypsa/CharacterBible'
+import HeadConstruction from './pages/gypsa/HeadConstruction'
+import BodyDummy from './pages/gypsa/BodyDummy'
 
 function App() {
   return (
@@ -148,6 +153,8 @@ function App() {
           <Route path="gypsa" element={<MakingOfGypsa />} />
           <Route path="gypsa/evolution" element={<EvolutionOfGypsa />} />
           <Route path="gypsa/milestones" element={<Milestones />} />
+          <Route path="gypsa/project-status" element={<ProjectStatus />} />
+          <Route path="gypsa/production-guide" element={<ProductionGuide />} />
 
           {/* Gypsa — Canonical Design Documentation */}
           <Route path="gypsa/canonical-design" element={<CanonicalDesignDocs />} />
@@ -156,6 +163,9 @@ function App() {
           <Route path="gypsa/body-and-tail" element={<BodyAndTail />} />
           <Route path="gypsa/equipment" element={<Equipment />} />
           <Route path="gypsa/rendering-standard" element={<RenderingStandard />} />
+          <Route path="gypsa/character-bible" element={<CharacterBible />} />
+          <Route path="gypsa/head-construction" element={<HeadConstruction />} />
+          <Route path="gypsa/body-dummy" element={<BodyDummy />} />
 
           <Route path="*" element={<NotFound />} />
         </Route>

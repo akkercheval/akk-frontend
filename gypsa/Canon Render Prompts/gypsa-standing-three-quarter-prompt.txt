@@ -1,0 +1,182 @@
+GYPSA — STANDING THREE-QUARTER VIEW
+Image generation prompt — fully self-contained, text only
+Reference images attached: (1) Gypsa Provisional Head Reference.png — three-quarter head/bust anchor; (2) canonical-body-dummy-v2.0-profile.svg — body proportions and squirrel hind-leg construction.
+-------------------------------------------------------------------------------
+
+TASK
+Produce a complete standing illustration of Gypsa in Explorer Mode, three-quarter view, left-facing (Gypsa faces image-left; her anatomical left side is the near side). She is fully equipped, standing relaxed on both feet with her walking stick held in her near hand. Expression is Neutral/Calm.
+
+-------------------------------------------------------------------------------
+IDENTITY
+Gypsa (Gypsophila) is a stylized young-adult female Eastern Gray Squirrel. She is the welcoming guide of AK's Friendly Forest of Chaos: curious, kind, patient, resourceful, and gently optimistic. Her equipment is practical and cared for, never magical or tactical. She is in Explorer Mode — upright, unhurried, at ease.
+
+-------------------------------------------------------------------------------
+STYLE
+Warm, clean, handcrafted character illustration. Flat color fills, rounded forms, controlled dark outlines, restrained discrete flat shadow shapes only where they clarify form or overlap. No gradients, airbrushed shading, raster textures, glossy highlights, photorealistic fur, or rim lights. Outline color #1E1E1E. Body fur uses gentle purposeful contour breaks; no repetitive sawteeth. Tail fur is longer and more directional than body fur; do not reduce it to a smooth plush tube. Output: transparent PNG background (real alpha, no baked checkerboard or white rectangle).
+
+-------------------------------------------------------------------------------
+PALETTE
+- Main coat (gray): #595652 — skull, outer ears, limbs, hands and feet, tail body
+- Warm fur (muzzle/belly/brows/inner ears/tail underside): #B97A3D
+- Outline: #1E1E1E
+- Nose: #2B2B2B
+- Iris: #533923 (flat solid dark brown — NO gradients, mottling, bands, or lighter rings)
+- Pupil: #000000 (solid black, distinct from iris)
+- White claws: #FFFFFF
+- Backpack leather (flap, straps, loop, stick straps): #6B4A2E
+- Walking-stick wood: #6B4A2E (same as backpack leather)
+- Backpack canvas (pack body): #A8743A
+- Oak green (bandana + oak-leaf patch): #4F7A3A
+- Acorn cookie-cutter metal: #B8B8B8
+- Inner ear: #B97A3D (same warm fur — NOT pale tan)
+
+Do NOT use: #E7B37A (retired pale tan inner ear), #111111 (retired pupil), pale gray tail stripes or bands.
+
+-------------------------------------------------------------------------------
+PROPORTIONS — STRUCTURAL UNIT
+1H = chin-to-cranial-top head height (excludes ears and projecting crown fur).
+
+Full-body upright landmark heights above ground:
+- Ground: 0.00H
+- Knee reference: 0.85H
+- Pelvic anchor (Pc): 1.45H
+- Tail root (Tr): 1.55H
+- Shoulder/neck transition (Sc): 3.15H
+- Head-base attachment (Nc): 3.45H
+- Cranial top: 4.45H
+- Ear tips (estimate): ~4.60H
+
+Limb segment lengths (constant across all poses):
+- Upper arm (shoulder to elbow): 0.62H
+- Forearm (elbow to wrist): 0.72H
+- Palm (wrist to finger base): 0.22H
+- Fingers (base to longest fingertip): 0.26H — total reach wrist to fingertip: 0.48H
+- Upper leg (hip to knee): 0.59H
+- Lower leg (knee to hock): 0.82H
+- Hock to ball of foot: 0.59H
+- Toe length: 0.27H
+
+Hands: three fingers plus one opposed thumb. Feet: three toes, elongated soles. White claws on all digits.
+
+In a relaxed standing pose, Gypsa rests on her entire foot including the heel. Preserve the folded squirrel hind-leg structure: hip-to-knee forward/down, knee-to-hock back/down, hock-to-ball forward/down (backward-Z in left-facing profile). Do NOT straighten it into a human-like leg.
+
+Body: soft compact young-adult build, pear-shaped torso, substantial neck, narrow shoulders, rounded haunches.
+
+-------------------------------------------------------------------------------
+HEAD
+Use the attached Gypsa Provisional Head Reference.png as the three-quarter head target. Match its shape, proportions, palette, and features precisely. Notes on its canon compliance:
+
+SKULL/MUZZLE
+- Rounded squirrel cranium with substantial volume behind and beneath the ears.
+- Muzzle is a broad softly rounded volume that projects forward and blends into the cheeks. It does not flatten or narrow into a pointed snout. Lower jaw is full with a soft chin. Preserve muzzle depth across expressions.
+- In the left-facing three-quarter view, the far cheek (Gypsa's anatomical right, image-left) must NOT show a separately exposed bulge; it should be largely occluded. Do not remove far muzzle volume to achieve this.
+
+NECK
+Substantial, softly rounded, with a broad continuous transition into the shoulders. Do not narrow or pinch the neck. Preserve fullness beneath the jaw and along the back.
+
+EYES
+Large, calm, almond-shaped "Quiet Observer" eyes with defined upper lids and softer lower lids. Iris: flat solid #533923 (no texture, no lighter bands, no gradients). Pupil: solid black #000000, approximately 75% of iris width/height, visible brown iris border. White catchlight over pupil. Three distinct upper-lid lashes per eye, grouped toward the outer corner, sweeping gently outward/upward; no lower lashes. Near (left) eye shows full face; far (right) eye is foreshortened.
+
+BELOW-EYE CLEARANCE
+A clearly continuous strip of gray (#595652) fur must remain visible beneath BOTH lower eye contours (including the far eye and all lower corners) before the warm muzzle marking begins. This strip is 10–20% of the eye-opening height wide. Do NOT let the fur-transition outline touch or merge with the eye outline. Do NOT add a contrasting crescent; this is plain gray facial fur.
+
+BROWS
+Slim, gently arched, cohesive filled band of warm brown (#B97A3D) fur, fuller at center, tapering at ends, with small restrained tufts along the contour. Surrounded by dark inward outline at 75% of standard head outline weight. Clearly separate from upper lids with visible gray fur between brow and lid.
+
+EARS
+Soft Taper: moderate size, broad-based, rounded upper contour, gentle inward curl. Low side placement on skull — roots are low on the skull sides in every pose; do not migrate roots toward the crown. In the left-facing three-quarter view, the near (anatomical left, image-right) ear shows its warm-brown inner surface; the far (anatomical right, image-left) ear shows only its gray outer/back surface. No inner-ear patch visible on the far ear from this angle.
+
+CROWN
+One broad, softly layered fur sweep originating just behind Gypsa's anatomical left ear (image-right in this view), flowing across the crown toward the forehead and turning gently downward and inward at the front end as a soft curl. Both eyebrows remain fully visible. The curl must NOT extend down between the eyes. Use broad overlapping fur groups with rounded bodies and gently tapered ends. No mohawk, spiky quiff, sawtooth fringe, or tight hook.
+
+EXPRESSION
+Neutral/Calm: level resting head, balanced relaxed brows, soft eyes, gentle closed smile. Ears in typical slightly-forward orientation, consistent with relaxed attentiveness.
+
+-------------------------------------------------------------------------------
+TAIL
+Neutral gesture: Relaxed S-Sweep B with Soft Stylized B fur.
+
+Root attaches at the terminal spine/sacral region immediately above the rump — never to the side of a thigh, hip, or rump surface. The visible fur base blends broadly into the body without a narrow stalk, hourglass pinch, seam, or abrupt flare.
+
+The tail dips slightly downward from the root into a low root bowl before rising into the S-sweep. The broad upper sweep relaxes away from the body, descends toward the tip, and ends in a subtle backward reversal. Do NOT make a tight spiral or question-mark hook. The lower sweep is smaller.
+
+In the left-facing three-quarter view, the tail should be visible beside and/or behind the torso. The upper sweep reaches to approximately the level of the lower head/neck alongside the body. Maintain consistent round-ish cross-sectional thickness at every station along its length — do NOT taper the tail to invisibility or near-zero width behind the shoulders.
+
+Fur: longer than body fur, soft directional groups with controlled irregularity (not scraggly individual hairs, not a smooth plush tube). Fur leans distally toward the tip along the local tail centerline tangent. Taper begins ~87% along the centerline.
+
+Tail underside: place the reddish-brown accent #B97A3D on the anatomical underside surface only, continuously through the tail's curves. No pale-gray stripes or bands. The underside marking and any cast-shadow shapes are separate features.
+
+The backpack fits the natural tail cavity and does not compress the tail root or force the tail into a new curve.
+
+-------------------------------------------------------------------------------
+BANDANA
+A simple square cloth folded corner-to-corner into a right triangle. The folded long edge wraps around the neck base; two tied ends are knotted at the front of the throat with a small square knot; the triangle point drapes over the back (partially covered by the backpack top). Solid oak-leaf green #4F7A3A. Sits at the neck base without hiding the chin or jaw. Backpack shoulder straps pass over the band at the shoulders.
+
+-------------------------------------------------------------------------------
+BACKPACK (worn, stowed stick)
+A sturdy, cared-for woodland pack in canvas and leather.
+
+Dimensions (in H):
+- Overall height: 1.60H (from tail root Tr at base to shoulder transition Sc at top)
+- Width: shoulder width
+- Depth: ~0.59H baseline, ~0.92H maximum
+- Flap: 0.80H long — cap 0.32H (top 40%), nut 0.48H (bottom 60%)
+
+FLAP: acorn-shaped leather — broad rounded cap with diamond-lattice quilting and gently scalloped cap/nut boundary; smooth unquilted nut tapering to a soft point. No acorn stem. Canvas mouth gathers beneath the flap.
+
+SHOULDER STRAPS: both attach to the pack's back face (the face against Gypsa's back), each strap running from top-left to bottom-left or top-right to bottom-right. They do not cross. Only as much strap is visible as the viewing angle exposes.
+
+HANGING LOOP: centered leather loop above/behind the flap hinge.
+
+OAK-LEAF PATCH: on the canvas front face below the flap, roughly one-third of the visible front-body height. Careful stitching. Oak-leaf green #4F7A3A.
+
+ACORN COOKIE CUTTER: an open-centered metal band (hollow, functional baking-cutter shape), tied by a short knotted cord to the hanging loop. Preserve its hollow construction and band depth. Do NOT reduce it to a flat disc, wire outline, or decorative charm.
+
+STOWED STICK: the walking stick is secured along Gypsa's anatomical right side of the pack (wearer's right), held by two plain leather straps, upper and lower. The stick may extend beyond the pack top and bottom. In this left-facing three-quarter view, the stick is on the far side and may be partially occluded by the pack body; do not move the attachment side.
+
+-------------------------------------------------------------------------------
+WALKING STICK (held in near hand)
+An undecorated found oak branch: gently irregular, sturdy but refined, with one comfortable grip bend and an asymmetric Y-fork. NOT a straight dowel, wand, or wizard staff.
+
+Dimensions (upright calibration):
+- Base to grip-bend center: 2.56H
+- Grip-bend center to fork split: 0.89H (fork split at 3.45H)
+- Fork split to long fork tip: 0.50H (long tip at 3.95H)
+- Short fork arm is ~60% of the long arm
+
+Diameters: lower shaft 0.15–0.16H; grip ~0.14H; upper shaft 0.12–0.13H; fork tips 0.09–0.11H. The lower shaft is much longer than the upper zones.
+
+Grip-bend curves toward Gypsa. Longer fork arm is body-side; shorter arm points away. Gypsa holds the stick in her near (left) hand at the grip. Validate hand contact with the grip. Do NOT force the fork tips to reach eye height; the stick is planted near or on the ground.
+
+Color: #6B4A2E (same brown as backpack leather).
+
+-------------------------------------------------------------------------------
+COMPOSITION
+- Camera: three-quarter left-facing, full body visible from ear tips to feet, with tail fully in frame.
+- Gypsa stands relaxed in Explorer Mode, weight even on both feet (heel contact), near hand holding the walking stick with its base near or on the ground, far arm relaxed.
+- Include comfortable framing around ears, tail tip, walking stick base, and feet — do not crop any of these.
+- Expression: Neutral/Calm, slightly viewer-engaged. She may have a gentle closed smile. Eyes soft and direct.
+- The tail should be visible alongside or behind the torso; confirm the upper sweep appears above the pack and alongside the lower head/neck area.
+- Background: fully transparent (real alpha channel, no baked environment).
+
+-------------------------------------------------------------------------------
+FEATURE PRESERVATION CHECKLIST
+Before finalizing, verify all of the following:
+
+[ ] Full standing body from ear tips to feet, tail completely in frame
+[ ] Three-quarter left-facing view; near side is Gypsa's anatomical left
+[ ] Squirrel hind-leg backward-Z structure preserved; heel contact on ground
+[ ] Tail: proper S-sweep, no drastic taper behind shoulders, anatomical underside accent only, visible beside torso
+[ ] Head matches the Provisional Head Reference: iris flat #533923, black pupils, three upper lashes, slim warm brows, gray below-eye clearance continuous under both eyes
+[ ] Far cheek occluded; no separate far-cheek bulge
+[ ] Crown sweep from behind anatomical left ear, soft front curl, both brows visible
+[ ] Near ear shows warm inner surface; far ear shows gray back only
+[ ] Bandana: square-knot at front, triangle point behind, oak green #4F7A3A
+[ ] Backpack proportions match 1.60H height, acorn flap, oak-leaf patch, hollow cookie cutter
+[ ] Stowed stick on wearer's right (far side in this view), two plain leather straps
+[ ] Held stick in near hand: planted near ground, irregular branch, Y-fork, canonical thickness
+[ ] No gradients, no pale gray tail stripes, no retired palette tokens
+[ ] Transparent PNG, clean alpha edges, no baked background
+
+-------------------------------------------------------------------------------
+END OF PROMPT
