@@ -5,9 +5,11 @@
 > An unofficial, player-made companion to the **Survival Instincts** system
 > introduced with _The Wolves of Mordor_. This page starts from the in-game
 > welcome letter every character received at launch on **Wednesday, October 28,
-> 2026**, and will grow over time as I explore the new content &mdash; screenshots
-> of the individual skills, the new Trait panel, and other details are still to
-> come.
+> 2026**, then walks through the new Trait Tree Panel and the skills each group
+> shares. It will keep growing as I explore the new content.
+
+## Getting Started  
+<img src="/images/LotRO/wolves-of-mordor/orthonn-minas-tirith-midsummer.png" alt="Orthonn, near the stables in Minas Tirith, Midsummer" style="float: right; max-width: 40%; margin: 0 0 0.75rem 1rem;">The best way to get started with **Survival Instincts** is to begin the new epic story, "...And the Verses of Victory."  This story begins in Minas Tirith, Midsummer.  You can swift travel from any of the housing area stable masters, as well as most major cities like Bree and Thorin's Gate.  Speak to Orthonn near the stables (22.4N, 53.7W) and begin *1.1: A Storm in Late Summer*.  The quest chain will teleport you to the new region of Mordor.  Work through the epic story and other quests as you encounter them.  You will gain trait points to spend as you complete quests in the area.  
 
 ## The Launch Letter
 
@@ -16,7 +18,7 @@ new **Survival Instincts** system. It&rsquo;s reproduced here in plain, readable
 text &mdash; the original in-game colouring is, frankly, rough on the eyes, so
 this is the same information laid out so you can actually read it.
 
-### Survival Instincts
+## Survival Instincts
 
 Throughout Draugardh you will meet members of the Khemoz&ecirc;l, Scouts of
 Draugardh, and T&ecirc;tikir people. Each group will share skills and lessons they
@@ -48,15 +50,4 @@ those earned from these groups through your travels.
 
 [&uarr; Back to top](#survival-instincts-top)
 
-## More to Come
 
-This page is just a starting base. As I work through the new content I&rsquo;ll
-add:
-
-- Screenshots and descriptions of the individual Survival Instinct skills.
-- A walkthrough of the new **Trait panel** and the Survival Instincts tab.
-- Details on the **Khemoz&ecirc;l**, **Scouts of Draugardh**, and **T&ecirc;tikir**
-  groups and the skills each one shares.
-- Notes on where and how to augment your personal skills out on the landscape.
-
-[&uarr; Back to top](#survival-instincts-top)

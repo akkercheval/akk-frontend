@@ -21,6 +21,12 @@ const guides: GuideLink[] = [
     blurb:
       'How to unlock the launch Neighbours, earn reputation, and where to find each one \u2014 with in-game screenshots, no quest spoilers',
   },
+  {
+    to: '/lotro/expansions/wolves-of-mordor/survival-instincts',
+    title: 'Survival Instincts Guide',
+    blurb:
+      'How the new Survival Instincts system works, plus the Trait Tree Panel and the skills shared by the Khemoz\u00eal, Scouts of Draugardh and T\u00eatikir',
+  },
 ]
 
 export default function WolvesOfMordor() {

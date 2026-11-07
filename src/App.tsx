@@ -38,6 +38,7 @@ import LotroExpansions from './pages/lotro/Expansions'
 import WolvesOfMordor from './pages/lotro/WolvesOfMordor'
 import WolvesPreOrderGuide from './pages/lotro/WolvesPreOrderGuide'
 import WolvesNeighbors from './pages/lotro/WolvesNeighbors'
+import WolvesSurvivalInstincts from './pages/lotro/WolvesSurvivalInstincts'
 import WolvesWereWolfHunters from './pages/lotro/WolvesWereWolfHunters'
 import WolvesDauntlessCommander from './pages/lotro/WolvesDauntlessCommander'
 import WolvesMountsWarSteeds from './pages/lotro/WolvesMountsWarSteeds'
@@ -103,6 +104,7 @@ function App() {
           <Route path="lotro/expansions" element={<LotroExpansions />} />
           <Route path="lotro/expansions/wolves-of-mordor" element={<WolvesOfMordor />} />
           <Route path="lotro/expansions/wolves-of-mordor/neighbours" element={<WolvesNeighbors />} />
+          <Route path="lotro/expansions/wolves-of-mordor/survival-instincts" element={<WolvesSurvivalInstincts />} />
           <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide" element={<WolvesPreOrderGuide />} />
           <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide/were-wolf-hunters" element={<WolvesWereWolfHunters />} />
           <Route path="lotro/expansions/wolves-of-mordor/pre-order-guide/dauntless-commander" element={<WolvesDauntlessCommander />} />
